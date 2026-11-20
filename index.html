@@ -2,113 +2,198 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="China Made Easy — travel China with confidence. Simple guides for payments, transport, food, apps and more.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#254D38">
+<meta name="description" content="China Made Easy — friendly, practical guides for travelling in China.">
 <title>China Made Easy — Travel China with confidence</title>
 <style>
-:root{--green:#254D38;--green2:#315f47;--cream:#F5F1E8;--ink:#17231b;--muted:#6e786f;--line:#e5e0d6;--gold:#e5bd62}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
-a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
-header{position:sticky;top:0;z-index:20;background:rgba(245,241,232,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--green);font-size:18px}
-.logo{width:36px;height:36px;border:2.5px solid var(--green);border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:21px;position:relative}.logo:after{content:"↗";position:absolute;font-size:13px;right:-4px;top:-3px;background:var(--cream)}
-.navlinks{display:flex;gap:20px;align-items:center;font-size:14px;color:#526157}.navlinks a:hover{color:var(--green)}
-.menu{display:none;border:0;background:none;font-size:24px;color:var(--green)}
-.hero{max-width:1100px;margin:0 auto;padding:55px 22px 36px;display:grid;grid-template-columns:1.25fr .75fr;gap:28px;align-items:center}
-.eyebrow{color:var(--green2);font-size:12px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
-h1{font-size:clamp(42px,6vw,70px);line-height:1.02;letter-spacing:-2.5px;margin:15px 0 18px;color:var(--green)}
-.hero p{font-size:18px;line-height:1.6;color:#5e6a61;max-width:530px}
-.cta{display:inline-flex;align-items:center;gap:8px;background:var(--green);color:white;padding:14px 20px;border-radius:99px;font-weight:700;margin-top:12px;border:0}
-.cta:hover{background:var(--green2)}
-.panda-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:25px;text-align:center;box-shadow:0 10px 35px #254d3810}
-.panda{font-size:100px;line-height:1.2}.panda-card h3{margin:5px 0;color:var(--green)}.panda-card p{margin:8px auto;font-size:15px}
-section{max-width:1100px;margin:auto;padding:30px 22px}
-.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:20px}
-h2{font-size:30px;letter-spacing:-.7px;margin:0;color:var(--green)}.section-head p{color:var(--muted);margin:7px 0 0}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;transition:.2s;display:flex;flex-direction:column;min-height:175px}
-.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px #254d3812;border-color:#c9d4ca}
-.icon{font-size:30px}.card h3{margin:12px 0 7px;font-size:17px;color:var(--green)}.card p{margin:0;color:#718076;font-size:14px;line-height:1.45}.card .arrow{margin-top:auto;padding-top:15px;color:var(--green);font-weight:700;font-size:13px}
-.cities{grid-template-columns:repeat(3,1fr)}.city{min-height:190px;background:linear-gradient(140deg,#e7e9dc,#fff);overflow:hidden}.city:nth-child(2){background:linear-gradient(140deg,#e8dfd0,#fff)}.city:nth-child(3){background:linear-gradient(140deg,#dce8df,#fff)}
-.city .icon{font-size:40px}.city h3{font-size:22px}
-.checklist{background:var(--green);color:white;border-radius:26px;padding:25px}.checklist h2{color:white}.checklist p{color:#dce8de}.check-items{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:20px}
-.check-item{background:#ffffff12;border:1px solid #ffffff2b;border-radius:12px;padding:12px;display:flex;gap:10px;align-items:center}
-.check-item input{accent-color:var(--gold);width:18px;height:18px}.check-item span{font-size:14px}
-.help{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#e9e5db;border-radius:22px;padding:24px}
-.help h2{font-size:25px}.help p{color:#647067}
-footer{padding:35px 22px;text-align:center;color:#778179;font-size:13px;border-top:1px solid var(--line);margin-top:25px}
-.modal{position:fixed;inset:0;background:#14231bd9;z-index:50;display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}
-.modal-box{background:var(--cream);width:min(760px,100%);max-height:90vh;overflow:auto;border-radius:24px;padding:25px}
-.modal-top{display:flex;justify-content:space-between;gap:15px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px}
-.modal-top h2{font-size:26px}.close{border:0;background:#e5e0d6;border-radius:50%;width:38px;height:38px;font-size:22px}
-.modal-content{line-height:1.65;color:#3f4b42}.modal-content h3{color:var(--green);margin-top:24px}.step{background:white;border:1px solid var(--line);padding:14px;border-radius:14px;margin:12px 0}.phrase{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#e8ece4;border-radius:12px;padding:12px;margin:10px 0}.phrase button{border:0;background:var(--green);color:white;border-radius:20px;padding:7px 12px;font-size:13px}.tip{background:#fff4d7;border-left:4px solid var(--gold);padding:12px 15px;border-radius:8px;margin:15px 0}
-@media(max-width:760px){.navlinks{display:none}.menu{display:block}.hero{grid-template-columns:1fr;padding-top:36px}.panda-card{max-width:430px;margin:auto}.grid{grid-template-columns:repeat(2,1fr)}.cities{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.check-items{grid-template-columns:1fr}.help{flex-direction:column;align-items:flex-start}h1{letter-spacing:-1.5px}}
-
-.hero{padding-top:66px;padding-bottom:52px}
-h1 em{font-style:normal;color:#78917d}
-.panda-card{background:linear-gradient(145deg,#fff 0%,#f0f3eb 100%);padding:20px;overflow:hidden}
-.panda-scene{position:relative;background:linear-gradient(180deg,#e6eee4,#f8f4e9);border-radius:22px;min-height:210px;display:grid;place-items:center;overflow:hidden}
-.sun{position:absolute;width:100px;height:100px;border-radius:50%;background:#e8c975;right:28px;top:22px;opacity:.75}
-.panda{position:relative;z-index:2;font-size:118px;filter:drop-shadow(0 8px 2px #254d3812)}
-.travel-stamp{position:absolute;left:18px;bottom:15px;border:1px solid #254d3855;border-radius:10px;padding:8px 10px;color:var(--green);font-weight:800;transform:rotate(-7deg);font-size:15px;line-height:1.1;background:#f5f1e8b8}
-.travel-stamp small{font-size:8px;letter-spacing:1.3px}
-.panda-tags{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin-top:12px}
-.panda-tags span{font-size:11px;background:#e9eee6;color:var(--green);padding:7px 10px;border-radius:99px;font-weight:700}
-.hero .cta{box-shadow:0 5px 12px #254d3820}
-.card{box-shadow:0 2px 8px #254d3805}
-.card .icon{width:48px;height:48px;background:#f1f3ed;border-radius:15px;display:grid;place-items:center}
-.city:after{content:"";height:4px;width:38px;background:#8ea391;border-radius:9px;margin-top:12px}
-.checklist{box-shadow:0 14px 30px #254d3820}
-.help{border:1px solid #ddd8ce}
-.trust-strip{max-width:1100px;margin:0 auto;padding:0 22px 18px;display:flex;gap:10px;flex-wrap:wrap}
-.trust-strip span{border:1px solid #dcded5;background:#ffffff70;padding:9px 13px;border-radius:99px;color:#5e6a61;font-size:12px;font-weight:650}
-.top{position:fixed;right:17px;bottom:18px;border:0;background:var(--green);color:#fff;width:42px;height:42px;border-radius:50%;box-shadow:0 5px 15px #254d3828;z-index:10;font-size:20px}
-.top:hover{background:var(--green2)}
+:root{--green:#254D38;--green2:#38684e;--cream:#F5F1E8;--paper:#fffdf8;--ink:#1e2b23;--muted:#68766d;--line:#e5e5da;--orange:#e99a54;--mint:#e6efe8;--shadow:0 12px 35px rgba(31,57,41,.08);--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}button,input{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}
+.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(245,241,232,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(37,77,56,.09)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-weight:850;letter-spacing:-.5px;font-size:19px}.logo{width:40px;height:40px;border-radius:14px;background:var(--green);display:grid;place-items:center;font-size:24px}.navlinks{display:flex;gap:24px;color:#526259;font-size:14px;font-weight:650}.navlinks a:hover{color:var(--green)}.menuBtn{display:none;border:0;background:var(--green);color:white;border-radius:12px;padding:9px 13px}
+.hero{padding:60px 0 36px}.heroGrid{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#e4ece5;color:var(--green);border-radius:999px;padding:7px 12px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.02;letter-spacing:-3px;margin:20px 0 18px;color:var(--green)}.hero p{font-size:18px;color:#59675e;max-width:540px}.btn{border:0;border-radius:999px;padding:13px 20px;font-weight:800;display:inline-flex;align-items:center;gap:8px;transition:.2s}.btn:hover{transform:translateY(-1px)}.primary{background:var(--green);color:#fff}.secondary{background:#fff;color:var(--green);border:1px solid var(--line)}.heroBtns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.heroArt{background:var(--green);border-radius:32px;min-height:340px;position:relative;overflow:hidden;display:grid;place-items:center;color:white;box-shadow:var(--shadow)}.heroArt:before,.heroArt:after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.08)}.heroArt:before{width:280px;height:280px;right:-55px;top:-75px}.heroArt:after{width:190px;height:190px;left:-50px;bottom:-65px}.panda{font-size:145px;filter:drop-shadow(0 10px 8px rgba(0,0,0,.15));z-index:1}.artLabel{position:absolute;bottom:22px;left:22px;z-index:1;font-weight:800;font-size:15px}
+.section{padding:42px 0}.sectionHead{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:22px}.sectionHead h2{font-size:30px;letter-spacing:-1px;margin:0;color:var(--green)}.sectionHead p{margin:5px 0 0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:21px;box-shadow:0 3px 15px rgba(31,57,41,.025);transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.categoryCard{min-height:170px;display:flex;flex-direction:column;justify-content:space-between}.iconBox{width:48px;height:48px;background:var(--mint);border-radius:15px;display:grid;place-items:center;font-size:24px}.card h3{margin:14px 0 6px;font-size:18px}.card p{color:var(--muted);margin:0;font-size:14px}.arrow{font-size:20px;color:var(--green);font-weight:900}
+.searchBar{display:flex;gap:10px;background:white;border:1px solid var(--line);padding:9px 12px;border-radius:16px;max-width:460px;width:100%}.searchBar input{border:0;outline:0;background:transparent;width:100%;min-width:0}.guideGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.guideCard{display:flex;gap:15px;align-items:flex-start}.guideNum{width:42px;height:42px;flex:0 0 42px;border-radius:14px;background:var(--green);color:white;display:grid;place-items:center;font-weight:850}.guideCard h3{margin:2px 0 5px;font-size:17px}.guideCard p{margin:0;color:var(--muted);font-size:14px}.tag{display:inline-block;margin-top:9px;background:#f0eee6;border-radius:99px;padding:4px 9px;font-size:11px;font-weight:750;color:#68766d}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px}.check{background:white;border:1px solid var(--line);padding:13px 15px;border-radius:14px;display:flex;gap:11px;align-items:center}.check input{accent-color:var(--green);width:18px;height:18px}.check.checked span{text-decoration:line-through;color:#8b968f}.progressWrap{height:8px;background:#e4e8e0;border-radius:999px;overflow:hidden;margin:15px 0}.progress{height:100%;background:var(--green);width:0;transition:.25s}
+.cityGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.city{min-height:190px;background:var(--green);color:white;border-radius:20px;padding:18px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}.city:after{content:"";position:absolute;width:130px;height:130px;border:1px solid rgba(255,255,255,.14);border-radius:50%;right:-35px;top:-30px}.city h3{font-size:22px;margin:0;z-index:1}.city p{font-size:13px;color:#d9e5dc;margin:6px 0;z-index:1}.city .cityEmoji{font-size:38px;z-index:1}
+.helpBanner{background:#e8efe8;border-radius:24px;padding:28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}.helpBanner h2{margin:0;color:var(--green)}.helpBanner p{margin:6px 0;color:#56675d}
+.footer{padding:32px 0 50px;color:var(--muted);border-top:1px solid var(--line);font-size:13px}.footerTop{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footerBrand{font-weight:850;color:var(--green)}
+.modal{position:fixed;inset:0;background:rgba(15,30,20,.6);z-index:50;display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modalPanel{width:min(760px,100%);max-height:92vh;overflow:auto;background:var(--paper);border-radius:25px;padding:24px;box-shadow:0 30px 80px rgba(0,0,0,.25)}.modalHead{display:flex;justify-content:space-between;gap:15px;align-items:start}.close{border:0;background:#edf1eb;border-radius:12px;width:40px;height:40px;font-size:22px;color:var(--green)}.modalTitle{color:var(--green);font-size:30px;letter-spacing:-1px;margin:7px 0}.stepMeta{font-size:13px;color:var(--muted);font-weight:750}.stepVisual{border:1.5px dashed #bdcbbf;border-radius:20px;background:#f2f5ef;min-height:220px;margin:18px 0;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;position:relative}.stepVisual .placeholderIcon{font-size:50px}.stepVisual strong{display:block;color:var(--green);font-size:18px;margin:10px 0}.stepVisual small{color:#68766d;max-width:380px;display:block}.stepBody{font-size:17px}.tip{background:#e8efe8;border-radius:16px;padding:15px;margin:16px 0}.tip strong{color:var(--green)}.modalControls{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:20px}.stepDots{display:flex;gap:5px;justify-content:center;flex:1}.dot{width:7px;height:7px;border-radius:99px;background:#cbd5cc}.dot.active{background:var(--green);width:20px}.phraseCard{background:white;border:1px solid var(--line);padding:18px;border-radius:18px;margin:10px 0}.phraseCard .en{font-weight:800;font-size:18px}.phraseCard .zh{font-size:24px;color:var(--green);font-weight:850;margin:5px 0}.phraseCard .py{color:var(--muted)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--green);color:white;padding:12px 18px;border-radius:99px;z-index:80;display:none}
+@media(max-width:850px){.heroGrid{grid-template-columns:1fr}.heroArt{min-height:250px}.panda{font-size:120px}.grid{grid-template-columns:repeat(2,1fr)}.cityGrid{grid-template-columns:repeat(2,1fr)}.sectionHead{align-items:start;flex-direction:column}.guideGrid{grid-template-columns:1fr}}
+@media(max-width:600px){.nav{height:64px}.navlinks{display:none;position:absolute;top:64px;left:0;right:0;background:var(--cream);padding:15px 20px;flex-direction:column;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.menuBtn{display:block}.hero{padding-top:32px}.hero h1{letter-spacing:-2px}.hero p{font-size:16px}.heroArt{min-height:220px}.panda{font-size:100px}.grid,.cityGrid{grid-template-columns:1fr 1fr}.categoryCard{min-height:150px;padding:16px}.checklist{grid-template-columns:1fr}.helpBanner{grid-template-columns:1fr}.modalPanel{padding:18px}.modalTitle{font-size:24px}.stepVisual{min-height:180px}.modalControls .btn{padding:11px 14px}.stepDots{display:none}}
 </style>
 </head>
 <body>
-<header><div class="nav"><a class="brand" href="#"><span class="logo">C</span> China Made Easy</a><nav class="navlinks"><a href="#guides">Travel essentials</a><a href="#cities">Explore China</a><a href="#checklist">Before you go</a><a href="#help">Help</a></nav><button class="menu" onclick="document.getElementById('guides').scrollIntoView()">☰</button></div></header>
+<header class="topbar">
+ <div class="wrap nav">
+  <a class="brand" href="#"><span class="logo">🐼</span><span>China Made Easy</span></a>
+  <nav class="navlinks" id="navlinks"><a href="#essentials">Essentials</a><a href="#guides">Guides</a><a href="#cities">Explore China</a><a href="#checklist">Before You Go</a><a href="#help">Help</a></nav>
+  <button class="menuBtn" id="menuBtn" aria-label="Open menu">☰</button>
+ </div>
+</header>
 <main>
-<div class="hero"><div><div class="eyebrow">YOUR FIRST TRIP TO CHINA, MADE SIMPLE</div><h1>China is easier<br><em>than you think.</em></h1><p>First time in China? Don't worry. We'll guide you through payments, transport, apps, food and everyday travel — one simple step at a time.</p><a class="cta" href="#guides">Start exploring <span>→</span></a></div><div class="panda-card"><div class="panda-scene"><div class="sun"></div><div class="panda">🐼</div><div class="travel-stamp">你好<br><small>NI HAO</small></div></div><h3>Your friendly China travel buddy</h3><p>Big adventure. Small steps. We've got you.</p><div class="panda-tags"><span>✈️ First-time visitor</span><span>🧭 Easy guides</span></div></div></div><div class="trust-strip"><span>🌏 Made for first-time visitors</span><span>📖 Simple step-by-step guides</span><span>🐼 Friendly, not overwhelming</span></div>
-<section id="guides"><div class="section-head"><div><h2>Travel essentials</h2><p>Everything you need to feel confident on your first trip.</p></div></div><div class="grid">
-<div class="card" onclick="openGuide('payments')"><div class="icon">💳</div><h3>Payments</h3><p>Set up Alipay and WeChat Pay before your trip.</p><div class="arrow">Read guide →</div></div>
-<div class="card" onclick="openGuide('metro')"><div class="icon">🚇</div><h3>Transportation</h3><p>Learn how to use China's metro system.</p><div class="arrow">Read guide →</div></div>
-<div class="card" onclick="openGuide('didi')"><div class="icon">🚕</div><h3>Taxi & DiDi</h3><p>Book rides and get to your destination easily.</p><div class="arrow">Read guide →</div></div>
-<div class="card" onclick="openGuide('apps')"><div class="icon">📱</div><h3>Essential Apps</h3><p>The apps that make travelling in China easier.</p><div class="arrow">Read guide →</div></div>
-<div class="card" onclick="openGuide('delivery')"><div class="icon">🥡</div><h3>Food Delivery</h3><p>Order food to your hotel or apartment.</p><div class="arrow">Read guide →</div></div>
-<div class="card" onclick="openGuide('dining')"><div class="icon">🍜</div><h3>Food & Dining</h3><p>Menus, ordering, spice levels and useful phrases.</p><div class="arrow">Read guide →</div></div>
-<div class="card" onclick="openGuide('hotel')"><div class="icon">🏨</div><h3>Hotels</h3><p>Check-in, Wi-Fi, deliveries and check-out.</p><div class="arrow">Read guide →</div></div>
-<div class="card" onclick="openGuide('safety')"><div class="icon">🛡️</div><h3>Safety</h3><p>Emergency numbers and what to do if something happens.</p><div class="arrow">Read guide →</div></div>
-</div></section>
-<section id="cities"><div class="section-head"><div><h2>Explore China</h2><p>Start with these popular destinations.</p></div></div><div class="grid cities">
-<div class="card city" onclick="openCity('Shanghai')"><div class="icon">🏙️</div><h3>Shanghai</h3><p>Modern city life, historic streets and riverside views.</p><div class="arrow">Explore Shanghai →</div></div>
-<div class="card city" onclick="openCity('Beijing')"><div class="icon">🏯</div><h3>Beijing</h3><p>Imperial history, iconic landmarks and local culture.</p><div class="arrow">Explore Beijing →</div></div>
-<div class="card city" onclick="openCity('Chengdu')"><div class="icon">🐼</div><h3>Chengdu</h3><p>Pandas, tea houses and delicious Sichuan food.</p><div class="arrow">Explore Chengdu →</div></div>
-</div></section>
-<section id="checklist"><div class="checklist"><h2>Before you go ✈️</h2><p>A few things to prepare before landing in China.</p><div class="check-items">
-<label class="check-item"><input type="checkbox"><span>Passport and visa / entry documents</span></label><label class="check-item"><input type="checkbox"><span>Set up Alipay or WeChat Pay</span></label><label class="check-item"><input type="checkbox"><span>Install essential travel apps</span></label><label class="check-item"><input type="checkbox"><span>Prepare mobile data / eSIM</span></label><label class="check-item"><input type="checkbox"><span>Save hotel address in Chinese</span></label><label class="check-item"><input type="checkbox"><span>Save emergency contact details</span></label>
-</div></div></section>
-<section id="help"><div class="help"><div><h2>Still have questions?</h2><p>Travel is easier when you know what to expect. Start with a guide, and take it one step at a time.</p></div><a class="cta" href="#guides">Browse guides →</a></div></section>
-</main><footer>🐼 China Made Easy · Travel China with confidence<br><span>Independent travel guide. Information may change — always check official sources.</span></footer><button class="top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
-<div class="modal" id="modal" onclick="if(event.target===this)closeModal()"><div class="modal-box"><div class="modal-top"><h2 id="modal-title"></h2><button class="close" onclick="closeModal()">×</button></div><div class="modal-content" id="modal-content"></div></div></div>
+<section class="hero wrap">
+ <div class="heroGrid">
+  <div><span class="eyebrow">Your friendly China travel guide</span><h1>China is easier<br>than you think.</h1><p>Practical, step-by-step guides to help you travel China with confidence. No guesswork. Just simple instructions.</p><div class="heroBtns"><a class="btn primary" href="#guides">Start your journey →</a><a class="btn secondary" href="#checklist">Before you go</a></div></div>
+  <div class="heroArt"><div class="panda">🐼</div><div class="artLabel">Your Panda Guide is here!</div></div>
+ </div>
+</section>
+<section class="section wrap" id="essentials">
+ <div class="sectionHead"><div><h2>Travel essentials</h2><p>Start with the things you'll need most.</p></div></div>
+ <div class="grid">
+  <a class="card categoryCard" href="#guides"><div class="iconBox">💳</div><div><h3>Payments</h3><p>Alipay, WeChat Pay & cards</p></div><span class="arrow">↗</span></a>
+  <a class="card categoryCard" href="#internet"><div class="iconBox">📶</div><div><h3>Internet & Apps</h3><p>Stay connected and prepared</p></div><span class="arrow">↗</span></a>
+  <a class="card categoryCard" href="#guides"><div class="iconBox">🚆</div><div><h3>Transportation</h3><p>Metro, taxis & trains</p></div><span class="arrow">↗</span></a>
+  <a class="card categoryCard" href="#guides"><div class="iconBox">🍜</div><div><h3>Food & Daily Life</h3><p>Ordering, shopping & daily tips</p></div><span class="arrow">↗</span></a>
+  <a class="card categoryCard" href="#cities"><div class="iconBox">🏨</div><div><h3>Stay & Travel</h3><p>Hotels, attractions & planning</p></div><span class="arrow">↗</span></a>
+  <a class="card categoryCard" href="#help"><div class="iconBox">🛟</div><div><h3>Safety & Help</h3><p>Know what to do when things go wrong</p></div><span class="arrow">↗</span></a>
+ </div>
+</section>
+<section class="section wrap" id="guides">
+ <div class="sectionHead"><div><h2>Step-by-step guides</h2><p>Find a guide and follow along at your own pace.</p></div><div class="searchBar"><span>🔎</span><input id="search" placeholder="Search guides..." aria-label="Search guides"></div></div>
+ <div class="guideGrid" id="guideGrid"></div>
+</section>
+<section class="section wrap" id="internet">
+ <div class="sectionHead"><div><h2>Stay connected</h2><p>Choose the option that works best for your trip.</p></div></div>
+ <div class="grid">
+  <div class="card"><div class="iconBox">🌍</div><h3>International roaming</h3><p>Keep your existing number. Check your operator's rates and coverage before departure.</p></div>
+  <div class="card"><div class="iconBox">📲</div><h3>Travel eSIM</h3><p>Convenient for many visitors. Check data allowance, activation rules and access to services.</p></div>
+  <div class="card"><div class="iconBox">🇨🇳</div><h3>Chinese SIM</h3><p>Useful for longer stays. Passport registration is generally required when purchasing a local SIM.</p></div>
+ </div>
+</section>
+<section class="section wrap" id="checklist">
+ <div class="sectionHead"><div><h2>Before you go</h2><p>Your simple pre-trip checklist.</p></div></div>
+ <div class="card"><div class="progressWrap"><div class="progress" id="checkProgress"></div></div><p id="checkCount" style="color:var(--muted);font-size:13px;margin:0 0 12px">0 of 8 completed</p>
+ <div class="checklist" id="checklistItems">
+  <label class="check"><input type="checkbox"><span>Download essential apps</span></label>
+  <label class="check"><input type="checkbox"><span>Set up Alipay</span></label>
+  <label class="check"><input type="checkbox"><span>Set up a backup payment method</span></label>
+  <label class="check"><input type="checkbox"><span>Arrange mobile internet</span></label>
+  <label class="check"><input type="checkbox"><span>Save your hotel address in Chinese</span></label>
+  <label class="check"><input type="checkbox"><span>Save passport and booking details</span></label>
+  <label class="check"><input type="checkbox"><span>Download offline information</span></label>
+  <label class="check"><input type="checkbox"><span>Check travel insurance</span></label>
+ </div></div>
+</section>
+<section class="section wrap" id="cities">
+ <div class="sectionHead"><div><h2>Explore China</h2><p>Different cities. Different experiences. One unforgettable trip.</p></div></div>
+ <div class="cityGrid">
+  <div class="city"><span class="cityEmoji">🏙️</span><div><h3>Shanghai</h3><p>Modern skyline · Food · First-time visitors</p></div></div>
+  <div class="city"><span class="cityEmoji">🏯</span><div><h3>Beijing</h3><p>History · Culture · Iconic landmarks</p></div></div>
+  <div class="city"><span class="cityEmoji">🐼</span><div><h3>Chengdu</h3><p>Pandas · Sichuan food · Relaxed vibes</p></div></div>
+  <div class="city"><span class="cityEmoji">🌃</span><div><h3>Chongqing</h3><p>Mountain city · Hotpot · Night views</p></div></div>
+ </div>
+</section>
+<section class="section wrap" id="help">
+ <div class="helpBanner"><div><h2>Need help?</h2><p>Save these phrases to show someone when you need assistance.</p></div><button class="btn primary" onclick="openPhrase()">Open help cards →</button></div>
+ <div class="grid" style="margin-top:16px">
+  <div class="phraseCard"><div class="en">Please help me.</div><div class="zh">请帮帮我。</div><div class="py">Qǐng bāng bāng wǒ.</div><button class="btn secondary" onclick="copyText('请帮帮我。')">Copy Chinese</button></div>
+  <div class="phraseCard"><div class="en">I have lost my passport.</div><div class="zh">我的护照丢了。</div><div class="py">Wǒ de hùzhào diū le.</div><button class="btn secondary" onclick="copyText('我的护照丢了。')">Copy Chinese</button></div>
+  <div class="phraseCard"><div class="en">Please take me to this address.</div><div class="zh">请带我去这个地址。</div><div class="py">Qǐng dài wǒ qù zhège dìzhǐ.</div><button class="btn secondary" onclick="copyText('请带我去这个地址。')">Copy Chinese</button></div>
+ </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap footerTop"><div><div class="footerBrand">🐼 China Made Easy</div><p>Travel China with confidence.</p></div><div><a href="#guides">Guides</a> · <a href="#cities">Explore China</a> · <a href="#help">Help</a></div></div><div class="wrap" style="margin-top:18px">Information is provided for general travel guidance. App interfaces, rules, fees and availability may change. Always check official services and current instructions.</div></footer>
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="modalPanel"><div class="modalHead"><div><div class="stepMeta" id="stepMeta"></div><h2 class="modalTitle" id="modalTitle"></h2></div><button class="close" onclick="closeModal()" aria-label="Close">×</button></div><div class="progressWrap"><div class="progress" id="tutorialProgress"></div></div><div class="stepVisual" id="stepVisual"></div><div class="stepBody" id="stepBody"></div><div class="tip" id="stepTip"></div><div class="modalControls"><button class="btn secondary" id="prevBtn" onclick="prevStep()">← Previous</button><div class="stepDots" id="stepDots"></div><button class="btn primary" id="nextBtn" onclick="nextStep()">Next →</button></div></div></div>
+<div class="toast" id="toast"></div>
 <script>
-const guides={
-payments:{title:"💳 Payments in China",body:`<p>China is largely cashless. International visitors can often use Alipay or WeChat Pay with an international bank card.</p><h3>Step 1 — Download an app</h3><div class="step">Install <b>Alipay</b> and/or <b>WeChat</b> before you travel. Use your regular app store.</div><h3>Step 2 — Register</h3><div class="step">Sign up with your mobile number and follow the verification instructions.</div><h3>Step 3 — Add your bank card</h3><div class="step">Look for “Cards” or “Bank Cards”, then add an eligible international Visa, Mastercard or other supported card. Follow the app's verification process.</div><div class="tip">🐼 Tip: Set this up before your flight and test it if possible. Card support and fees can vary.</div><h3>Useful phrase</h3><div class="phrase"><span>可以用支付宝吗？<br><b>Can I pay with Alipay?</b></span><button onclick="copyText('可以用支付宝吗？')">Copy</button></div>`},
-metro:{title:"🚇 Getting around by metro",body:`<p>Metro systems in major Chinese cities are generally easy to use and have signs in Chinese and English.</p><h3>How to ride</h3><div class="step"><b>1.</b> Open your payment app and find the transport QR code, or use a ticket machine.</div><div class="step"><b>2.</b> Choose your city’s metro service and activate the QR code if required.</div><div class="step"><b>3.</b> Scan at the gate to enter. Keep the same payment method ready to exit.</div><div class="step"><b>4.</b> Follow English station signs and check the line colour and direction.</div><div class="tip">🐼 Tip: A map app can help you plan the route. Allow extra time during rush hour.</div><h3>Useful phrase</h3><div class="phrase"><span>这个站怎么走？<br><b>How do I get to this station?</b></span><button onclick="copyText('这个站怎么走？')">Copy</button></div>`},
-didi:{title:"🚕 Taxi & DiDi",body:`<p>Ride-hailing is convenient in many Chinese cities. DiDi is a popular option and may be accessible through supported apps or mini-programs.</p><h3>Booking a ride</h3><div class="step"><b>1.</b> Enter your destination. Copy the Chinese address of your destination when possible.</div><div class="step"><b>2.</b> Confirm your pickup point carefully — especially at airports, stations and large malls.</div><div class="step"><b>3.</b> Check the car plate number and driver details before getting in.</div><div class="step"><b>4.</b> Follow the trip in the app and pay through the supported method.</div><div class="tip">🐼 Tip: Avoid unofficial drivers who approach you inside airports or stations.</div><h3>Useful phrase</h3><div class="phrase"><span>请带我去这个地址。<br><b>Please take me to this address.</b></span><button onclick="copyText('请带我去这个地址。')">Copy</button></div>`},
-apps:{title:"📱 Essential apps",body:`<p>These apps can make everyday travel much easier.</p><div class="step"><b>Alipay / WeChat</b><br>Payments and some transport or service features.</div><div class="step"><b>Amap (高德地图)</b><br>Navigation, public transport and local places.</div><div class="step"><b>DiDi</b><br>Ride-hailing.</div><div class="step"><b>Trip.com</b><br>Hotels, flights and train tickets; English interface available.</div><div class="step"><b>Translation app</b><br>Download offline language packs where available.</div><div class="step"><b>12306</b><br>Official railway ticketing service.</div><div class="tip">🐼 Tip: App availability, language support and features may change. Download and log in before travelling.</div>`},
-delivery:{title:"🥡 Food delivery",body:`<p>Food delivery is widely used in Chinese cities. Meituan and Ele.me are major services, though language support for international visitors may be limited.</p><h3>How it works</h3><div class="step"><b>1.</b> Open the delivery app or service.</div><div class="step"><b>2.</b> Enter your hotel or apartment address in Chinese. Ask reception for the exact address if needed.</div><div class="step"><b>3.</b> Browse restaurants and dishes. Use image menus or translation tools.</div><div class="step"><b>4.</b> Add notes such as no spicy food or no peanuts, if the restaurant can accommodate them.</div><div class="step"><b>5.</b> Pay and track the delivery. Check the app for the pickup location or delivery instructions.</div><div class="tip">🐼 Tip: Hotel deliveries are often left at a designated lobby or delivery shelf. Ask reception what to do.</div><h3>Useful phrase</h3><div class="phrase"><span>请放在酒店前台。<br><b>Please leave it at the hotel reception.</b></span><button onclick="copyText('请放在酒店前台。')">Copy</button></div>`},
-dining:{title:"🍜 Food & dining",body:`<p>Restaurants may use QR-code menus, ordering kiosks or traditional menus.</p><h3>Ordering</h3><div class="step"><b>1.</b> Scan the QR code if the restaurant uses one. If it requires a Chinese app account, ask staff for a paper menu.</div><div class="step"><b>2.</b> Look at photos, translate dish names, or ask staff for recommendations.</div><div class="step"><b>3.</b> Tell staff your spice preference and dietary restrictions clearly.</div><div class="step"><b>4.</b> Pay using your preferred supported payment method.</div><h3>Useful phrases</h3><div class="phrase"><span>不要辣。<br><b>Not spicy, please.</b></span><button onclick="copyText('不要辣。')">Copy</button></div><div class="phrase"><span>我不吃牛肉。<br><b>I don't eat beef.</b></span><button onclick="copyText('我不吃牛肉。')">Copy</button></div><div class="phrase"><span>买单，谢谢。<br><b>The bill, please.</b></span><button onclick="copyText('买单，谢谢。')">Copy</button></div>`},
-hotel:{title:"🏨 Hotels & accommodation",body:`<p>Keep your passport ready at check-in. Hotels may need to register your accommodation details.</p><h3>Check-in</h3><div class="step"><b>1.</b> Show your passport and booking confirmation.</div><div class="step"><b>2.</b> Ask about Wi-Fi, breakfast, check-out time and facilities.</div><div class="step"><b>3.</b> Save the hotel name and address in Chinese in your phone.</div><h3>Useful phrases</h3><div class="phrase"><span>Wi-Fi密码是什么？<br><b>What's the Wi-Fi password?</b></span><button onclick="copyText('Wi-Fi密码是什么？')">Copy</button></div><div class="phrase"><span>可以帮我叫出租车吗？<br><b>Could you help me call a taxi?</b></span><button onclick="copyText('可以帮我叫出租车吗？')">Copy</button></div><div class="tip">🐼 Tip: Confirm that your accommodation accepts foreign guests before booking.</div>`},
-safety:{title:"🛡️ Safety & emergencies",body:`<p>Keep your passport secure and save important information offline. Emergency services may not always have English-speaking operators.</p><h3>Emergency numbers (mainland China)</h3><div class="step"><b>110 — Police</b></div><div class="step"><b>119 — Fire</b></div><div class="step"><b>120 — Ambulance / medical emergency</b></div><div class="step"><b>122 — Traffic police</b></div><h3>If you lose something</h3><div class="step">Contact your hotel, transport provider or the venue where you last had it. If your passport is lost, contact your country's embassy or consulate.</div><h3>Useful phrase</h3><div class="phrase"><span>请帮帮我。<br><b>Please help me.</b></span><button onclick="copyText('请帮帮我。')">Copy</button></div><div class="tip">🐼 Tip: For serious emergencies, contact local emergency services. Information here is general; verify official guidance before travel.</div>`}
-};
-const cities={Shanghai:`<p>Shanghai is a great first stop for modern China, waterfront views, historic architecture and neighbourhood walks.</p><h3>Ideas for your first visit</h3><div class="step">The Bund — skyline and riverside walk.</div><div class="step">Yu Garden — traditional garden and nearby old-town streets.</div><div class="step">Former French Concession — cafés, tree-lined streets and boutiques.</div><div class="step">Use the metro to move around and keep your destination address in Chinese.</div>`,Beijing:`<p>Beijing combines imperial history, traditional neighbourhoods and major landmarks.</p><h3>Ideas for your first visit</h3><div class="step">Forbidden City — book tickets ahead and check entry rules.</div><div class="step">Great Wall — choose a section and plan transport in advance.</div><div class="step">Temple of Heaven — historic architecture and park.</div><div class="step">Hutongs — explore traditional neighbourhoods respectfully.</div>`,Chengdu:`<p>Chengdu is famous for pandas, Sichuan cuisine and a relaxed tea-house culture.</p><h3>Ideas for your first visit</h3><div class="step">Giant Panda Base — plan an early visit.</div><div class="step">People's Park — tea houses and local life.</div><div class="step">Jinli or nearby historic streets — evening stroll.</div><div class="step">Try Sichuan food and specify your spice preference.</div>`};
-function openGuide(id){let g=guides[id];document.getElementById('modal-title').innerHTML=g.title;document.getElementById('modal-content').innerHTML=g.body;document.getElementById('modal').classList.add('open');document.body.style.overflow='hidden'}
-function openCity(name){document.getElementById('modal-title').innerHTML='📍 '+name;document.getElementById('modal-content').innerHTML=cities[name];document.getElementById('modal').classList.add('open');document.body.style.overflow='hidden'}
+const guides=[
+{id:"apps",title:"The Essential Apps for China",desc:"The apps that make travelling around China easier.",cat:"Apps & Internet",icon:"📱",steps:[
+["Start with the essentials","You don't need dozens of apps. These are a practical starting point for most travellers.","📱","Download the apps you expect to use before your trip.","Prioritize payments, maps, transportation, translation and bookings."],
+["Payments","Alipay and WeChat can be useful for payments and many everyday services.","💳","Set up at least one payment method before travelling.","Have a backup payment option."],
+["Maps","Amap is widely used for navigation and local transport information.","🗺️","Install a map app and save important addresses.","Keep your hotel address in Chinese."],
+["Transportation","DiDi can help you book rides. Trip.com can help with travel bookings.","🚕","Install the services you plan to use.","Check passenger details carefully when booking."],
+["Translation","Prepare a translation app and download language packs if available.","🗣️","Test translation before your trip.","Save a few useful Chinese phrases offline."]
+]},
+{id:"alipay-setup",title:"How to Set Up Alipay",desc:"Create an account and prepare a payment method.",cat:"Payments",icon:"💳",steps:[
+["Download Alipay","Find the official Alipay app in your app store.","📲","Download the official app before travelling if possible.","App availability may vary by region and device."],
+["Create your account","Open Alipay and follow the registration instructions. Choose your country code and enter your phone number.","👤","Use a phone number that can receive verification messages.","Keep access to this number while setting up."],
+["Verify your phone","Enter the verification code sent to your phone.","🔐","If the code does not arrive, check your country code and SMS reception.","Never share your verification code."],
+["Complete identity verification","Follow any identity verification prompts. If requested, prepare your passport.","🪪","Use your real details and follow the app's current instructions.","Verification requirements can vary."],
+["Add a bank card","Look for Me → Bank Cards → Add Card, or the equivalent menu in your version.","💳","Enter your eligible international bank card details.","Card acceptance, fees and limits depend on the card and issuer."],
+["Check your setup","Confirm your card is listed and explore the Pay and Scan options.","✅","Test your setup when convenient and keep a backup payment method.","You may not need to preload an Alipay balance."]
+]},
+{id:"alipay-pay",title:"How to Pay with Alipay",desc:"Scan a merchant QR code or show your payment code.",cat:"Payments",icon:"🧾",steps:[
+["Open Alipay","Launch the app and make sure you are signed in.","📱","Look for Scan or Pay / Receive on the home screen.","Menu labels can vary by app version."],
+["Scan a merchant code","Tap Scan and point your camera at the merchant's QR code.","🔎","Keep the QR code inside the scanning frame.","Only scan the payment code provided by the merchant."],
+["Confirm the payment","Enter the amount if requested and review the payment details.","💰","Check the amount and currency before confirming.","A payment may be charged directly to your linked card."],
+["Show your payment code","Alternatively, open Pay / Receive and show your payment QR code to the cashier.","▦","Increase screen brightness if the cashier has trouble scanning.","Do not share your payment code online."],
+["Check confirmation","Wait for the successful payment message or receipt.","🎉","Keep the confirmation until the transaction is complete.","If payment fails, try your backup method."]
+]},
+{id:"wechat",title:"Set Up WeChat Pay",desc:"Prepare WeChat as a backup payment option.",cat:"Payments",icon:"💬",steps:[
+["Download WeChat","Install the official WeChat app and open it.","📲","Use the official app store listing.","Registration requirements may vary."],
+["Register","Follow the sign-up flow and verify your phone number.","👤","Use a number you can access.","Follow any security checks shown."],
+["Open Wallet or Services","Find Me and look for Services, Wallet or WeChat Pay.","💼","The menu may differ depending on your account and region.","Some features may not appear for every account."],
+["Add a bank card","Choose Cards or Add Card and follow the prompts.","💳","Enter card details carefully.","Supported cards and verification vary."],
+["Confirm setup","Check whether your payment functions are available.","✅","Keep Alipay or another backup payment method.","Do not assume every merchant accepts every payment method."]
+]},
+{id:"internet",title:"How to Get Internet in China",desc:"Compare roaming, travel eSIM and local SIM options.",cat:"Apps & Internet",icon:"📶",steps:[
+["Choose your connection","Compare international roaming, a travel eSIM or a local Chinese SIM.","🌐","Choose based on trip length, cost and the services you need.","Check provider details before purchase."],
+["Check compatibility","Confirm your phone supports eSIM if you plan to use one.","📱","Check your device model and carrier restrictions.","Some phones or regions do not support eSIM."],
+["Purchase before departure","If using a travel eSIM, buy from a provider and review its instructions.","🛒","Check data allowance, validity and activation timing.","Read what services and networks are included."],
+["Install your plan","Follow the provider's setup steps, ideally before departure while connected to Wi-Fi.","⚙️","Do not delete your eSIM after installation unless instructed.","Keep your primary SIM available if needed."],
+["Test your connection","Check data works and understand which SIM is providing internet.","✅","Save important addresses and bookings offline.","Connectivity and access to services vary by plan."]
+]},
+{id:"metro",title:"How to Take the Metro",desc:"Use a QR ticket or buy a single journey ticket.",cat:"Transportation",icon:"🚇",steps:[
+["Find the metro station","Follow the metro signs and enter the station.","🚇","Look for the city metro symbol and station entrance.","Station layouts differ by city."],
+["Choose your ticket method","Check whether your city supports a transport QR code in a payment app.","▦","Follow the city's official instructions.","QR availability and app support vary."],
+["Buy a single ticket","At a ticket machine, select your destination and ticket type.","🎫","Some machines have an English option.","Keep your ticket until you exit."],
+["Pass security","Place bags through security if required and follow station signs.","🧳","Allow extra time at busy stations.","Security procedures may vary."],
+["Enter the station","Scan your QR code or tap/insert your ticket at the gate.","➡️","Follow signs to your platform and direction.","Keep your ticket or QR code ready."],
+["Exit correctly","Scan or use your ticket at the exit gate.","🏁","Check station signs for the correct exit.","Some systems calculate fares based on your journey."]
+]},
+{id:"didi",title:"How to Use DiDi",desc:"Book a ride and find your driver.",cat:"Transportation",icon:"🚕",steps:[
+["Open DiDi","Open the app or the supported DiDi service available to you.","🚕","Allow location access when needed.","Availability and registration options can change."],
+["Enter your destination","Search for your destination or enter the address.","📍","Chinese addresses can be helpful for accuracy.","Double-check the destination."],
+["Choose a ride","Review available ride types and estimated prices.","🚗","Select the option that fits your needs.","Prices can change with demand."],
+["Confirm pickup","Check the pickup point on the map before booking.","🗺️","Move to a safe and clearly marked pickup area.","Airports and stations may have designated zones."],
+["Meet your driver","Check the vehicle and plate number in the app.","🔎","Do not get into a car that does not match your booking.","Verify the driver and vehicle."],
+["Complete your trip","Follow the route and confirm the trip is complete.","✅","Use the app's payment and support options.","Keep your booking details if you need help."]
+]},
+{id:"train",title:"How to Book a High-Speed Train",desc:"Book a train and prepare for your station.",cat:"Transportation",icon:"🚄",steps:[
+["Search your route","Enter your departure city, destination and travel date in a booking service.","🔎","Check the exact station names.","Large cities may have several railway stations."],
+["Choose a train","Compare departure time, duration and seat options.","🚄","Leave enough time to reach the station.","Check the station before purchasing."],
+["Enter passenger details","Enter your passport information as requested.","🪪","Use details exactly as shown on your travel document.","Passenger verification may be required."],
+["Review and pay","Check the route, date, passenger and ticket details before payment.","💳","Save your booking confirmation.","Refund and change rules depend on the ticket."],
+["Arrive at the station","Follow station signs and allow time for security and entry checks.","🏢","Bring the passport used for booking.","Entry procedures may vary."],
+["Find your train","Check departure boards for your train number, gate and boarding time.","🛤️","Follow the signs to your waiting area.","Board only when instructed."]
+]},
+{id:"food",title:"How to Order Food in China",desc:"Order food, add delivery notes and track your meal.",cat:"Food & Daily Life",icon:"🍜",steps:[
+["Choose a platform","Explore available services such as Meituan or Taobao Flash Shopping.","🍜","You may also find food delivery through supported payment-app services.","Service names and access may change."],
+["Set your address","Enter your hotel or accommodation address carefully.","📍","Use the Chinese address if available.","Confirm building, room or delivery instructions with your hotel."],
+["Choose a restaurant","Browse menus and look at dish photos, descriptions and reviews.","🥢","Use translation tools when needed.","Ingredients and allergens may not always be clear."],
+["Add your dishes","Select dishes, options and quantities.","🛒","Check portion sizes and spice options.","If you have an allergy, contact the restaurant when possible."],
+["Add delivery notes","Include clear instructions for the driver.","📝","Example: Please leave it at the hotel front desk.","Do not include sensitive personal information."],
+["Pay and track","Review your order and use an available payment method.","💳","Track the order and check the delivery status.","Payment and delivery options vary."]
+]},
+{id:"airport",title:"From the Airport to Your Hotel",desc:"Choose a taxi, ride-hailing, metro or shuttle.",cat:"Stay & Travel",icon:"✈️",steps:[
+["Get connected","Connect to Wi-Fi or activate your mobile data plan.","📶","Keep your hotel address and booking details accessible.","Save a copy offline."],
+["Choose transportation","Compare taxi, ride-hailing, metro and airport shuttle options.","🚕","Consider luggage, time, cost and arrival hour.","Transport options differ by airport."],
+["Use official taxi services","Follow airport signs to the official taxi queue.","🚖","Avoid unsolicited offers inside the terminal.","Use official pickup areas."],
+["Book a ride","If using a ride-hailing app, confirm the pickup location.","📍","Some airports have designated app pickup zones.","Follow airport signage."],
+["Take public transport","Follow signs to metro or airport rail if available.","🚇","Check the last train time if arriving late.","Routes and operating hours vary."],
+["Show your hotel address","Use the Chinese address saved in your phone if needed.","🏨","Ask your hotel for the Chinese address before travel.","This can help when communicating with drivers."]
+]}
+];
+let currentGuide=null,currentStep=0;
+const guideGrid=document.getElementById('guideGrid');
+function renderGuides(filter=""){guideGrid.innerHTML="";const list=guides.filter(g=>(g.title+" "+g.desc+" "+g.cat).toLowerCase().includes(filter.toLowerCase()));if(!list.length){guideGrid.innerHTML='<div class="card">No guides found. Try another search.</div>';return}list.forEach((g,i)=>{const card=document.createElement('div');card.className="card guideCard";card.innerHTML=`<div class="guideNum">${g.icon}</div><div style="flex:1"><h3>${g.title}</h3><p>${g.desc}</p><span class="tag">${g.cat} · ${g.steps.length} steps</span></div><span class="arrow">→</span>`;card.onclick=()=>openGuide(g.id);card.style.cursor="pointer";guideGrid.appendChild(card)})}
+document.getElementById('search').addEventListener('input',e=>renderGuides(e.target.value));
+renderGuides();
+document.getElementById('menuBtn').onclick=()=>document.getElementById('navlinks').classList.toggle('open');
+document.querySelectorAll('#navlinks a').forEach(a=>a.onclick=()=>document.getElementById('navlinks').classList.remove('open'));
+function openGuide(id){currentGuide=guides.find(g=>g.id===id);currentStep=0;renderStep();document.getElementById('modal').classList.add('open');document.body.style.overflow='hidden'}
+function openPhrase(){currentGuide={title:"Useful Chinese Help Cards",steps:[["Please help me.","请帮帮我。","Qǐng bāng bāng wǒ.","Show this card to someone when you need help."],["I have lost my passport.","我的护照丢了。","Wǒ de hùzhào diū le.","Show this card to staff or the police."],["Please take me to this address.","请带我去这个地址。","Qǐng dài wǒ qù zhège dìzhǐ.","Add your destination address below if needed."]]};currentStep=0;renderStep();document.getElementById('modal').classList.add('open');document.body.style.overflow='hidden'}
+function renderStep(){const s=currentGuide.steps[currentStep];document.getElementById('stepMeta').textContent=`STEP ${currentStep+1} OF ${currentGuide.steps.length}`;document.getElementById('modalTitle').textContent=currentGuide.title;document.getElementById('stepVisual').innerHTML=`<div><div class="placeholderIcon">${s[2]||"📱"}</div><strong>Visual guide image</strong><small>Real app screenshot to be added for this step. This space is designed for an annotated screenshot with arrows and highlights.</small></div>`;document.getElementById('stepBody').textContent=s[1];document.getElementById('stepTip').innerHTML=`<strong>🐼 Panda Tip</strong><br>${s[3]||"Follow the instructions shown in the app. Screens and requirements may change."}`;document.getElementById('tutorialProgress').style.width=((currentStep+1)/currentGuide.steps.length*100)+"%";document.getElementById('prevBtn').disabled=currentStep===0;document.getElementById('prevBtn').style.opacity=currentStep===0?".45":"1";document.getElementById('nextBtn').textContent=currentStep===currentGuide.steps.length-1?"Finish ✓":"Next →";document.getElementById('stepDots').innerHTML=currentGuide.steps.map((_,i)=>`<span class="dot ${i===currentStep?'active':''}"></span>`).join("")}
+function nextStep(){if(currentStep<currentGuide.steps.length-1){currentStep++;renderStep()}else closeModal()}
+function prevStep(){if(currentStep>0){currentStep--;renderStep()}}
 function closeModal(){document.getElementById('modal').classList.remove('open');document.body.style.overflow=''}
-function copyText(t){if(navigator.clipboard){navigator.clipboard.writeText(t).then(()=>alert('Copied!')).catch(()=>fallbackCopy(t))}else fallbackCopy(t)}
-function fallbackCopy(t){let a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();alert('Copied!')}
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==="modal")closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==="Escape")closeModal();if(document.getElementById('modal').classList.contains('open')&&e.key==="ArrowRight")nextStep();if(document.getElementById('modal').classList.contains('open')&&e.key==="ArrowLeft")prevStep()});
+document.querySelectorAll('#checklistItems input').forEach(i=>i.addEventListener('change',()=>{const all=[...document.querySelectorAll('#checklistItems input')],done=all.filter(x=>x.checked).length;document.getElementById('checkProgress').style.width=(done/all.length*100)+"%";document.getElementById('checkCount').textContent=`${done} of ${all.length} completed`;i.closest('.check').classList.toggle('checked',i.checked)}));
+function copyText(t){if(navigator.clipboard){navigator.clipboard.writeText(t).then(()=>toast("Chinese copied!"))}else toast(t)}
+function toast(msg){const el=document.getElementById('toast');el.textContent=msg;el.style.display='block';setTimeout(()=>el.style.display='none',2200)}
 </script>
-</body></html>
+</body>
+</html>
