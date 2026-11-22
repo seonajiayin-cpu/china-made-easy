@@ -1,0 +1,408 @@
+[
+  {
+    "id": "mahjong",
+    "slug": "mahjong",
+    "category": "social-games",
+    "icon": "🀄",
+    "names": {
+      "en": "Mahjong",
+      "zh-Hans": "麻将",
+      "zh-Hant": "麻將",
+      "fr": "Mahjong",
+      "es": "Mahjong",
+      "ja": "麻雀",
+      "ko": "마작"
+    },
+    "descriptions": {
+      "en": "Learn the basics and experience a classic social game.",
+      "zh-Hans": "了解规则，体验经典的社交游戏。",
+      "zh-Hant": "了解規則，體驗經典的社交遊戲。",
+      "fr": "Découvrez les règles et un jeu social classique.",
+      "es": "Aprende las reglas y disfruta de un juego social clásico.",
+      "ja": "基本ルールを学び、定番の交流ゲームを体験しましょう。",
+      "ko": "기본 규칙을 배우고 전통적인 사교 게임을 체험해 보세요."
+    },
+    "guide": {
+      "en": "Find a beginner-friendly session or ask a local host to explain the tiles and rules. Regional versions differ; treat it as a social and cultural experience, not gambling.",
+      "zh-Hans": "寻找适合初学者的体验，或请当地人介绍牌面和规则。各地玩法不同；建议将其视为社交和文化体验，而非赌博。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "culture",
+      "social",
+      "indoor"
+    ],
+    "recommendedCityIds": [
+      "chengdu",
+      "guangzhou",
+      "shanghai"
+    ]
+  },
+  {
+    "id": "ktv",
+    "slug": "ktv",
+    "category": "entertainment",
+    "icon": "🎤",
+    "names": {
+      "en": "KTV",
+      "zh-Hans": "KTV / 卡拉OK",
+      "zh-Hant": "KTV / 卡拉OK",
+      "fr": "Karaoké (KTV)",
+      "es": "Karaoke (KTV)",
+      "ja": "KTV（カラオケ）",
+      "ko": "KTV (노래방)"
+    },
+    "descriptions": {
+      "en": "Sing with friends in a private karaoke room.",
+      "zh-Hans": "与朋友在私人包厢里唱歌。",
+      "zh-Hant": "與朋友在私人包廂裡唱歌。",
+      "fr": "Chantez entre amis dans une salle privée.",
+      "es": "Canta con amigos en una sala privada.",
+      "ja": "友人と個室でカラオケを楽しみましょう。",
+      "ko": "친구들과 전용 룸에서 노래를 즐겨 보세요."
+    },
+    "guide": {
+      "en": "KTV usually involves booking a private room by time. Check room size, minimum spend, song-language options and service charges before confirming.",
+      "zh-Hans": "KTV通常按时间预订包厢。预订前确认包厢大小、最低消费、歌曲语言和服务费。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "nightlife",
+      "social",
+      "indoor"
+    ],
+    "recommendedCityIds": [
+      "beijing",
+      "shanghai",
+      "guangzhou",
+      "shenzhen",
+      "chengdu",
+      "chongqing",
+      "harbin",
+      "xinjiang"
+    ]
+  },
+  {
+    "id": "massage",
+    "slug": "massage-foot-massage",
+    "category": "wellness",
+    "icon": "💆",
+    "names": {
+      "en": "Massage & foot massage",
+      "zh-Hans": "按摩与足疗",
+      "zh-Hant": "按摩與足療",
+      "fr": "Massage et massage des pieds",
+      "es": "Masajes y masaje de pies",
+      "ja": "マッサージ・足つぼ",
+      "ko": "마사지·발 마사지"
+    },
+    "descriptions": {
+      "en": "Understand different wellness experiences.",
+      "zh-Hans": "了解不同类型的放松体验。",
+      "zh-Hant": "了解不同類型的放鬆體驗。",
+      "fr": "Découvrez différentes expériences de bien-être.",
+      "es": "Conoce diferentes experiencias de bienestar.",
+      "ja": "さまざまなリラクゼーション体験を知りましょう。",
+      "ko": "다양한 웰니스 경험을 알아보세요."
+    },
+    "guide": {
+      "en": "Choose a reputable, clearly licensed provider. Confirm service type, duration, price and extra charges before the session. Ask about accessibility and hygiene.",
+      "zh-Hans": "选择信誉良好、资质清晰的服务机构。体验前确认服务类型、时长、价格和额外费用，并留意卫生及无障碍条件。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "wellness",
+      "relaxation"
+    ],
+    "recommendedCityIds": [
+      "beijing",
+      "shanghai",
+      "guangzhou",
+      "shenzhen",
+      "chengdu",
+      "chongqing"
+    ]
+  },
+  {
+    "id": "hotpot",
+    "slug": "hot-pot",
+    "category": "food",
+    "icon": "🍲",
+    "names": {
+      "en": "Hot pot",
+      "zh-Hans": "火锅",
+      "zh-Hant": "火鍋",
+      "fr": "Fondue chinoise",
+      "es": "Hot pot",
+      "ja": "火鍋",
+      "ko": "훠궈"
+    },
+    "descriptions": {
+      "en": "Choose a broth, ingredients and dipping sauces.",
+      "zh-Hans": "选择锅底、食材和蘸料。",
+      "zh-Hant": "選擇湯底、食材和蘸料。",
+      "fr": "Choisissez un bouillon, des ingrédients et des sauces.",
+      "es": "Elige caldo, ingredientes y salsas.",
+      "ja": "スープ、具材、つけだれを選びましょう。",
+      "ko": "육수, 재료, 소스를 선택해 보세요."
+    },
+    "guide": {
+      "en": "Hot pot is often shared. Choose broth spice level, ask about ingredients and allergies, and understand whether prices are per item, weight or set menu.",
+      "zh-Hans": "火锅通常多人共享。选择辣度，询问食材和过敏原，并确认价格是按份、重量还是套餐计算。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "food",
+      "social",
+      "regional"
+    ],
+    "recommendedCityIds": [
+      "chengdu",
+      "chongqing",
+      "beijing"
+    ]
+  },
+  {
+    "id": "tea",
+    "slug": "tea-culture",
+    "category": "culture",
+    "icon": "🍵",
+    "names": {
+      "en": "Tea culture",
+      "zh-Hans": "茶文化",
+      "zh-Hant": "茶文化",
+      "fr": "Culture du thé",
+      "es": "Cultura del té",
+      "ja": "茶文化",
+      "ko": "차 문화"
+    },
+    "descriptions": {
+      "en": "Explore Chinese tea and traditional tea houses.",
+      "zh-Hans": "探索中国茶和传统茶馆。",
+      "zh-Hant": "探索中國茶和傳統茶館。",
+      "fr": "Découvrez le thé chinois et les maisons de thé.",
+      "es": "Descubre el té chino y las casas de té tradicionales.",
+      "ja": "中国茶と伝統的な茶館を楽しみましょう。",
+      "ko": "중국 차와 전통 찻집을 경험해 보세요."
+    },
+    "guide": {
+      "en": "Try a tea tasting or tea house visit. Ask what teas are served, how the tasting works and whether the price is per person or per pot.",
+      "zh-Hans": "尝试茶品鉴或茶馆体验。询问茶的种类、品鉴方式，以及价格是按人还是按壶计算。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "culture",
+      "relaxation",
+      "food"
+    ],
+    "recommendedCityIds": [
+      "chengdu",
+      "guangzhou",
+      "beijing"
+    ]
+  },
+  {
+    "id": "bathhouse",
+    "slug": "bathhouses-spa",
+    "category": "wellness",
+    "icon": "🧖",
+    "names": {
+      "en": "Bathhouses & spa",
+      "zh-Hans": "浴场与水疗",
+      "zh-Hant": "浴場與水療",
+      "fr": "Bains et spa",
+      "es": "Baños y spa",
+      "ja": "浴場・スパ",
+      "ko": "목욕탕·스파"
+    },
+    "descriptions": {
+      "en": "Explore bathing, sauna and relaxation traditions.",
+      "zh-Hans": "体验洗浴、桑拿和休闲文化。",
+      "zh-Hant": "體驗洗浴、桑拿和休閒文化。",
+      "fr": "Découvrez les traditions de bain, sauna et détente.",
+      "es": "Explora tradiciones de baños, sauna y relajación.",
+      "ja": "入浴、サウナ、リラクゼーションの文化を体験しましょう。",
+      "ko": "목욕, 사우나, 휴식 문화를 경험해 보세요."
+    },
+    "guide": {
+      "en": "Facilities and customs vary. Check what is included, clothing requirements, gender-separated areas, health restrictions and prices before entering.",
+      "zh-Hans": "设施和习俗各不相同。进入前确认包含项目、服装要求、分区、健康限制和价格。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "wellness",
+      "relaxation"
+    ],
+    "recommendedCityIds": [
+      "beijing",
+      "harbin",
+      "chengdu"
+    ]
+  },
+  {
+    "id": "sports",
+    "slug": "sports-local-activities",
+    "category": "activities",
+    "icon": "🏸",
+    "names": {
+      "en": "Sports & activities",
+      "zh-Hans": "运动与当地活动",
+      "zh-Hant": "運動與當地活動",
+      "fr": "Sports et activités",
+      "es": "Deportes y actividades",
+      "ja": "スポーツ・アクティビティ",
+      "ko": "스포츠·액티비티"
+    },
+    "descriptions": {
+      "en": "Join a local activity or watch people play.",
+      "zh-Hans": "参加当地活动或观看人们运动。",
+      "zh-Hant": "參加當地活動或觀看人們運動。",
+      "fr": "Participez à une activité locale ou regardez les joueurs.",
+      "es": "Participa en una actividad local o observa a la gente.",
+      "ja": "地元の活動に参加したり、プレーを見たりしましょう。",
+      "ko": "현지 활동에 참여하거나 경기를 관람해 보세요."
+    },
+    "guide": {
+      "en": "Look for badminton, table tennis, basketball, cycling, hiking or other activities. Confirm equipment rental, booking, safety rules and language support.",
+      "zh-Hans": "可以寻找羽毛球、乒乓球、篮球、骑行、徒步等活动。确认装备租赁、预约、安全规则和语言支持。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "active",
+      "local",
+      "outdoors"
+    ],
+    "recommendedCityIds": [
+      "shenzhen",
+      "shanghai",
+      "chengdu"
+    ]
+  },
+  {
+    "id": "nightmarket",
+    "slug": "night-markets",
+    "category": "food-shopping",
+    "icon": "🌙",
+    "names": {
+      "en": "Night markets",
+      "zh-Hans": "夜市",
+      "zh-Hant": "夜市",
+      "fr": "Marchés nocturnes",
+      "es": "Mercados nocturnos",
+      "ja": "夜市",
+      "ko": "야시장"
+    },
+    "descriptions": {
+      "en": "Explore street food, shopping and evening culture.",
+      "zh-Hans": "探索街头美食、购物和夜间文化。",
+      "zh-Hant": "探索街頭美食、購物和夜間文化。",
+      "fr": "Découvrez la street-food, le shopping et la culture du soir.",
+      "es": "Explora comida callejera, compras y cultura nocturna.",
+      "ja": "屋台グルメ、買い物、夜の文化を楽しみましょう。",
+      "ko": "길거리 음식, 쇼핑, 야간 문화를 즐겨 보세요."
+    },
+    "guide": {
+      "en": "Keep valuables secure. Check prices before ordering and note that some markets are seasonal or change locations.",
+      "zh-Hans": "保管好贵重物品，点餐前确认价格。部分夜市可能季节性开放或更换地点。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "food",
+      "shopping",
+      "nightlife"
+    ],
+    "recommendedCityIds": [
+      "guangzhou",
+      "chengdu",
+      "chongqing"
+    ]
+  },
+  {
+    "id": "cooking",
+    "slug": "cooking-classes",
+    "category": "food-culture",
+    "icon": "🥢",
+    "names": {
+      "en": "Cooking classes",
+      "zh-Hans": "烹饪课程",
+      "zh-Hant": "烹飪課程",
+      "fr": "Cours de cuisine",
+      "es": "Clases de cocina",
+      "ja": "料理教室",
+      "ko": "요리 수업"
+    },
+    "descriptions": {
+      "en": "Learn to make dumplings, noodles or regional dishes.",
+      "zh-Hans": "学习制作饺子、面条或地方菜。",
+      "zh-Hant": "學習製作餃子、麵條或地方菜。",
+      "fr": "Apprenez à préparer des raviolis, des nouilles ou des plats régionaux.",
+      "es": "Aprende a preparar dumplings, fideos o platos regionales.",
+      "ja": "餃子、麺料理、郷土料理の作り方を学びましょう。",
+      "ko": "만두, 면 요리 또는 지역 요리를 배워 보세요."
+    },
+    "guide": {
+      "en": "Choose a class with clear language support and ingredient information. Ask whether it includes a market visit, recipes and food-allergy accommodations.",
+      "zh-Hans": "选择语言支持清晰、食材信息明确的课程。询问是否包含市场参观、食谱和过敏原安排。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "food",
+      "hands-on",
+      "culture"
+    ],
+    "recommendedCityIds": [
+      "guangzhou",
+      "chengdu",
+      "beijing"
+    ]
+  },
+  {
+    "id": "traditional",
+    "slug": "traditional-activities",
+    "category": "culture",
+    "icon": "🎎",
+    "names": {
+      "en": "Traditional activities",
+      "zh-Hans": "传统文化体验",
+      "zh-Hant": "傳統文化體驗",
+      "fr": "Activités traditionnelles",
+      "es": "Actividades tradicionales",
+      "ja": "伝統文化体験",
+      "ko": "전통 문화 체험"
+    },
+    "descriptions": {
+      "en": "Try calligraphy, crafts, opera, hanfu or local heritage.",
+      "zh-Hans": "体验书法、手工艺、戏曲、汉服或地方文化。",
+      "zh-Hant": "體驗書法、手工藝、戲曲、漢服或地方文化。",
+      "fr": "Essayez la calligraphie, l'artisanat, l'opéra ou le hanfu.",
+      "es": "Prueba caligrafía, artesanía, ópera, hanfu o patrimonio local.",
+      "ja": "書道、工芸、伝統劇、漢服などを体験しましょう。",
+      "ko": "서예, 공예, 전통극, 한푸 등 전통 문화를 체험해 보세요."
+    },
+    "guide": {
+      "en": "Look for workshops run by practitioners or cultural venues. Ask about duration, materials, photography and whether it is a demonstration or hands-on.",
+      "zh-Hans": "寻找由专业从业者或文化场馆举办的体验。确认时长、材料、拍照规则，以及是演示还是动手参与。"
+    },
+    "bookingStatus": "not-bookable",
+    "contentStatus": "needs-review",
+    "tags": [
+      "culture",
+      "hands-on",
+      "heritage"
+    ],
+    "recommendedCityIds": [
+      "beijing",
+      "chengdu",
+      "guangzhou"
+    ]
+  }
+]
