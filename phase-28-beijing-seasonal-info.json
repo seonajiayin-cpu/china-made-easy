@@ -1,0 +1,65 @@
+{
+  "phase": 28,
+  "batch": "Beijing official visitor information: Confucius Temple & Imperial College, Summer Palace, Temple of Heaven",
+  "reviewedAt": "2026-11-22",
+  "scope": "Official municipal, venue, and government sources reviewed for selected visitor claims. Ticketing, hours, closures, and reservation processes are dynamic and must be rechecked before travel. This is not a live ticket availability check.",
+  "records": [
+    {
+      "attractionId": "beijing-confucius-temple-imperial-college",
+      "name": "Confucius Temple & Imperial College Museum",
+      "status": "source-confirmed-with-dynamic-ticketing-caveat",
+      "claimsReviewed": [
+        "Address listed by Beijing Municipal Cultural Heritage Administration: 13–15 Guozijian Street, Dongcheng District",
+        "Museum sources describe the Confucius Temple and Imperial College as the historic temple and former imperial academy complex",
+        "Venue booking information lists seasonal hours: November–April 08:30–17:00, last ticket 16:30; May–October 08:30–18:00, last ticket 17:00",
+        "Weekly Monday closure is listed except holidays",
+        "Venue booking information describes real-name online reservations, a daily quota of 9,000, and a booking window up to three days ahead; current platform status must be checked",
+        "A municipal visitor listing reports adult admission CNY 30 and half-price CNY 15; confirm current price in the venue booking channel",
+        "A municipal visitor listing reports 09:00 opening, creating a conflict with the venue booking page 08:30 opening"
+      ],
+      "sourceUrls": [
+        "https://wwj.beijing.gov.cn/bjww/362771/362772/546078/index.html",
+        "https://kmgzj.hdwbcloud.com/",
+        "https://s.visitbeijing.com.cn/attraction/117801"
+      ],
+      "notes": "Venue booking page currently surfaced a paused reservation state during review; treat reservation availability and operational details as dynamic. Call 010-64057214 or verify the museum's official WeChat before visiting."
+    },
+    {
+      "attractionId": "beijing-summer-palace",
+      "name": "Summer Palace",
+      "status": "source-confirmed-seasonal-visitor-information",
+      "claimsReviewed": [
+        "Official municipal landscaping bureau describes the garden as 300.8 hectares and identifies Longevity Hill and Kunming Lake as principal landscape features",
+        "Main park hours: peak season April 1–October 31, 06:00–19:00 with quiet-garden time 20:00; off-season November 1–March 31, 06:30–18:00 with quiet-garden time 19:00",
+        "Separately ticketed sites have different hours from the main park",
+        "Municipal source lists main admission CNY 30 peak season and CNY 20 off-season; combined ticket CNY 60 / CNY 50",
+        "Some individually ticketed sites close Mondays except statutory holidays",
+        "Official municipal visitor guide provides passport-based foreign visitor booking guidance; confirm the current channel and terms"
+      ],
+      "sourceUrls": [
+        "https://yllhj.beijing.gov.cn/ztxx/kpjd/202312/t20231222_3508035.shtml",
+        "https://s.visitbeijing.com.cn/attraction/101407",
+        "https://english.beijing.gov.cn/specials/parktours/guidevisitors/summerpalace/"
+      ],
+      "notes": "Hours for park gates and paid sites differ. The official visitor guide is the operational reference; seasonal details and booking requirements should be rechecked."
+    },
+    {
+      "attractionId": "beijing-temple-of-heaven",
+      "name": "Temple of Heaven",
+      "status": "source-confirmed-seasonal-visitor-information",
+      "claimsReviewed": [
+        "Official Beijing data page lists address as No. 1A Tiantan Road, Dongcheng District",
+        "Park hours: peak season April 1–October 31, 06:00–22:00; off-season November 1–March 31, 06:30–22:00; last entry 21:00",
+        "Paid scenic buildings have separate hours: 08:00–18:00 peak season and 08:00–17:00 off-season",
+        "Main paid scenic buildings close Mondays except statutory holidays",
+        "Official visitor guide describes park-only and combined ticket prices and passport-based booking through the official ticketing channel; verify current booking steps"
+      ],
+      "sourceUrls": [
+        "https://data.beijing.gov.cn/publish/bjdata/zyml/wnkfsj/63f3ccb5324d460091913b8d818686d7.htm",
+        "https://s.visitbeijing.com.cn/index.php/attraction/101409",
+        "https://english.beijing.gov.cn/specials/parktours/guidevisitors/templeofheaven/index.html"
+      ],
+      "notes": "The park remains open longer than its paid buildings. Do not describe the park's 22:00 closing as the opening time of the Hall of Prayer for Good Harvests or other paid sites."
+    }
+  ]
+}

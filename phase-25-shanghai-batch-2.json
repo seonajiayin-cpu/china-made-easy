@@ -1,0 +1,115 @@
+{
+  "phase": 25,
+  "batch": "Shanghai source review batch 2",
+  "reviewedAt": "2026-11-22",
+  "scope": "Eight remaining Shanghai attraction records; selected descriptive and visitor-information claims checked against official municipal or venue sources. This is not a complete operational verification.",
+  "records": [
+    {
+      "attractionId": "shanghai-shanghai-tower",
+      "name": "Shanghai Tower",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "The official English site describes the sightseeing route including the B1 exhibition hall, 118th-floor observatory, and 125th-126th-floor SKY632 art space",
+        "The observatory is described as being 546 meters high",
+        "The official site says visitors should carry ID cards or passports"
+      ],
+      "source": "Shanghai Tower official English site",
+      "sourceUrl": "https://en.shanghaitower.com/shagnhai.html",
+      "sourceUpdated": null,
+      "notes": "Source confirms these descriptive details only. Current opening hours, prices, ticket availability, and entry conditions were not verified."
+    },
+    {
+      "attractionId": "shanghai-former-french-concession",
+      "name": "Former French Concession",
+      "status": "source-review-pending",
+      "claimsReviewed": [],
+      "source": null,
+      "sourceUrl": null,
+      "notes": "Broad historic area; exact boundaries, itinerary and visitor entry points need a dedicated official source review."
+    },
+    {
+      "attractionId": "shanghai-oriental-pearl",
+      "name": "Oriental Pearl Tower",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "The tower is 468 meters high",
+        "Address listed as No. 1 Century Avenue, Pudong New Area, Shanghai",
+        "Official municipal source describes sightseeing, dining, shopping, exhibitions and river-tour functions"
+      ],
+      "source": "Shanghai Municipal Government English portal; source credits orientalpearltower.com",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20231205/19a5f5184eca45728fd57a4d4c8efc61.html",
+      "sourceUpdated": "2025-08-13",
+      "notes": "No current ticket price, opening hours, availability or booking rules were verified."
+    },
+    {
+      "attractionId": "shanghai-museum-east",
+      "name": "Shanghai Museum East",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Address: No. 1952 Century Avenue, Pudong New Area",
+        "Official site lists 10:00-18:00, last entry 17:00, closed Tuesdays except national holidays",
+        "Individual visitors do not require reservation according to official museum visitor information",
+        "Individual entry is through the B1 East Gate after security check with valid ID"
+      ],
+      "source": "Shanghai Museum official visitor information; Shanghai municipal English guide",
+      "sourceUrl": "https://www.shanghaimuseum.cn/mu/frontend/pg/en/service/visit-east",
+      "sourceUpdated": null,
+      "notes": "The museum notes that special galleries and special exhibitions may have separate reservation or ticket requirements; operational details may change."
+    },
+    {
+      "attractionId": "shanghai-nanjing-road",
+      "name": "Nanjing Road Pedestrian Street",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Official municipal source describes the street as a shopping destination with department stores, traditional-brand snacks and night views",
+        "The municipal source lists the pedestrian street as open 24/7"
+      ],
+      "source": "Shanghai Municipal Government English portal; source credits Huangpu district government",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20231226/45172d56a204477195888159d4698ac8.html",
+      "sourceUpdated": null,
+      "notes": "Street access is distinct from individual shops and venues, whose hours vary. Specific entrances and route details were not verified."
+    },
+    {
+      "attractionId": "shanghai-xintiandi",
+      "name": "Xintiandi",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Address listed as Lane 181 Taicang Road, Huangpu District",
+        "Municipal source lists the area as open 24/7",
+        "The Shikumen area preserves historic building appearance while incorporating commercial functions"
+      ],
+      "source": "Shanghai Municipal Government English portal; source credits Shanghai Municipal Commission of Commerce",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-PlanANightOut/20231217/2f954a83b78945ffb7dac1038e6797c4.html",
+      "sourceUpdated": null,
+      "notes": "Area access is distinct from individual restaurants, shops and attractions, which have their own hours."
+    },
+    {
+      "attractionId": "shanghai-tianzifang",
+      "name": "Tianzifang",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Municipal source describes the area as a historic alley with Shikumen and other architectural styles",
+        "Location listed as Alley 210, Taikang Road, Huangpu District",
+        "Official source lists open 24/7 and free admission"
+      ],
+      "source": "Shanghai Municipal Government English portal; source credits Huangpu district government",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20250220/07accc0710864d548ccc1edf621c353f.html",
+      "sourceUpdated": "2025-02-20",
+      "notes": "Open-access area information does not verify hours or fees for individual shops, studios, or venues."
+    },
+    {
+      "attractionId": "shanghai-wukang-road",
+      "name": "Wukang Road",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Official municipal tourism source places Wukang Road within the Hengshan-Fuxing Road Historic Reservation Area",
+        "Municipal source identifies 14 excellent-rated historical buildings and another 37 conserved buildings along the street",
+        "Official tourist service center listed at No. 393-A Wukang Road"
+      ],
+      "source": "Shanghai Municipal Government English portal; municipal tourism information center directory",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20231218/596192f5f59048bbbc3fa54d92304e93.html",
+      "sourceUpdated": "2025-08-14",
+      "notes": "Street-level description and tourist-center address are supported. No claim is made that the tourist center is the best entrance or that all buildings are open to visitors."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "phase": 30,
+  "reviewedAt": "2026-11-22",
+  "scope": "Chengdu attraction practical-information verification; official primary sources prioritized; secondary-source claims explicitly separated.",
+  "records": [
+    {
+      "attractionId": "chengdu-chengdu-panda-base",
+      "name": "Chengdu Research Base of Giant Panda Breeding",
+      "status": "source-confirmed",
+      "sourceUrls": [
+        "https://www.panda.org.cn/en/service/ticket/",
+        "https://www.panda.org.cn/en/service/sightseeingbus/"
+      ],
+      "confirmed": {
+        "adultPriceCNY": 55,
+        "realNameReservation": true,
+        "bookingWindowDays": 14,
+        "passportAccepted": "Passport holders use the Passport & Other Documents verification lane and present the original valid document used for booking.",
+        "seasonalEntryHours": {
+          "marOct": {
+            "morning": "07:30-12:00",
+            "afternoon": "12:00-17:00",
+            "clearance": "18:00"
+          },
+          "novFeb": {
+            "morning": "08:00-12:00",
+            "afternoon": "12:00-16:30",
+            "clearance": "17:30"
+          }
+        },
+        "officialAuthorizedChannels": [
+          "official WeChat account",
+          "official WeChat mini-program",
+          "Meituan",
+          "Trip.com",
+          "Douyin",
+          "Tongcheng Travel",
+          "Chengdu Scenic Shuttle Bus official WeChat account"
+        ]
+      },
+      "visitorCaveat": "Official page says on-site windows may serve visitors unable to pay online in special circumstances, subject to availability. Do not present this as guaranteed walk-up admission.",
+      "lastChecked": "2026-11-22"
+    },
+    {
+      "attractionId": "chengdu-wuhou-shrine-jinli",
+      "name": "Wuhou Shrine Museum (record also mentions adjacent Jinli)",
+      "status": "source-confirmed-for-museum-only",
+      "sourceUrls": [
+        "https://en.wuhouci.net.cn/visit-ticket",
+        "https://en.wuhouci.net.cn/visit-traffic"
+      ],
+      "confirmed": {
+        "adultPriceCNY": 50,
+        "realNameReservation": true,
+        "bookingWindowDays": 14,
+        "passportBookingSupported": true,
+        "officialChannels": [
+          "museum official website",
+          "museum official WeChat account"
+        ],
+        "onlinePayment": [
+          "WeChat Pay",
+          "Alipay"
+        ],
+        "cashOnSiteFallback": "Passport holders unable to pay online may buy at the onsite service window in cash.",
+        "hours": "09:00-19:00; admission stops 18:00; service window 09:00-18:00",
+        "address": "No. 231 Wuhouci Street, Chengdu"
+      },
+      "scopeNote": "All ticket and hours data apply to the museum only; Jinli pedestrian street is not covered by these ticket rules.",
+      "lastChecked": "2026-11-22"
+    },
+    {
+      "attractionId": "chengdu-du-fu-thatched-cottage",
+      "name": "Du Fu Thatched Cottage Museum",
+      "status": "source-confirmed",
+      "sourceUrls": [
+        "https://www.cddfct.cn/",
+        "https://www.cddfct.cn/go-c18.htm",
+        "https://www.cddfct.cn/go-c20.htm"
+      ],
+      "confirmed": {
+        "adultPriceCNY": 50,
+        "halfPriceCNY": 25,
+        "hours": "09:00-18:00; ticket sales stop 17:00",
+        "address": "37 Qinghua Road, Qingyang District, Chengdu",
+        "passportOnSitePurchase": "Official page states valid IDs including passport may be used at the comprehensive service window for onsite purchase.",
+        "reservation": "Official pages describe online reservation/ticketing; booking window and foreign passport online workflow need further review."
+      },
+      "caveat": "Seasonal holiday extended hours may apply; confirm official notices.",
+      "lastChecked": "2026-11-22"
+    },
+    {
+      "attractionId": "chengdu-kuanzhai-alleys",
+      "name": "Kuanzhai Alleys",
+      "status": "secondary-source-reviewed",
+      "sourceUrls": [
+        "https://realchengdu.com/en/attractions/kuanzhai-alley"
+      ],
+      "claims": {
+        "freePublicEntry": true,
+        "listedAddress": "No. 127 Changshun Upper Street, Qingyang District",
+        "24HourAccess": "Listed by source; not independently confirmed against a primary authority."
+      },
+      "caveat": "No primary district/official attraction source located in this batch; individual venues may charge.",
+      "lastChecked": "2026-11-22"
+    },
+    {
+      "attractionId": "chengdu-people-s-park",
+      "name": "People’s Park",
+      "status": "needs-primary-source-research",
+      "existingAddressStatus": "approximate",
+      "caveat": "Do not publish current opening hours, ticket price, or entrance address as verified in this batch.",
+      "lastChecked": "2026-11-22"
+    }
+  ]
+}

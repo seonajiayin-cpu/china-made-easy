@@ -1,0 +1,138 @@
+{
+  "phase": 26,
+  "batch": "Shanghai closeout and Beijing core attractions source review",
+  "reviewedAt": "2026-11-22",
+  "scope": "Selected descriptive and visitor-information claims checked against municipal official sources. This is not a live ticket availability check or a complete operational verification.",
+  "records": [
+    {
+      "attractionId": "shanghai-former-french-concession",
+      "name": "Former French Concession",
+      "status": "source-review-limited",
+      "claimsReviewed": [
+        "Shanghai municipal city-walk guidance identifies routes through historic streets in Xuhui and Huangpu, including Wukang Road, Sinan Road, Julu Road, Taikang Road and Xintiandi",
+        "Official route content supports treating these streets and attractions as visitor walk areas; it does not establish a single definitive boundary for the Former French Concession"
+      ],
+      "source": "Shanghai Municipal Government English portal — Urban Discovery city-walk routes; historical Jing'an route",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-144-hourtransfer-stayinShanghai/20240104/d25575598d6444e49dc75f7a23b985d2.html",
+      "sourceUpdated": null,
+      "notes": "Area-level destination. Do not display a single precise boundary or entrance as official. Route coverage is source-supported; boundaries and visitor entry points remain unverified."
+    },
+    {
+      "attractionId": "shanghai-wukang-road",
+      "name": "Wukang Road",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Located in Xuhui district",
+        "Official description highlights historic architecture and cultural heritage",
+        "Wukang Road Tourist Information Centre is listed at No. 393-A Wukang Road"
+      ],
+      "source": "Shanghai Municipal Government English portal",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20231218/596192f5f59048bbbc3fa54d92304e93.html",
+      "sourceUpdated": "2025-08-14",
+      "notes": "Claims reviewed are descriptive/location-related. Current opening hours and attraction-specific access not verified."
+    },
+    {
+      "attractionId": "shanghai-tianzifang",
+      "name": "Tianzifang",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Located at Alley 210, Taikang Road, Huangpu district",
+        "Official source lists general area as open 24/7 and free admission",
+        "Area contains historic lane housing and varied architectural styles"
+      ],
+      "source": "Huangpu District government via Shanghai Municipal Government English portal",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20250220/07accc0710864d548ccc1edf621c353f.html",
+      "sourceUpdated": "2025-02-20",
+      "notes": "General district access only; individual businesses and venues have their own hours and policies."
+    },
+    {
+      "attractionId": "shanghai-xintiandi",
+      "name": "Xintiandi",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Shikumen heritage block",
+        "Official source describes restoration and mixed cultural, lifestyle, dining and fashion functions"
+      ],
+      "source": "Shanghai Municipal Government English portal",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-HeritageZones/20240104/292e9fb43eec407783af83e547e61281.html",
+      "sourceUpdated": "2025-09-01",
+      "notes": "Descriptive heritage claims reviewed; current individual venue hours and prices not verified."
+    },
+    {
+      "attractionId": "beijing-forbidden-city",
+      "name": "Palace Museum / Forbidden City",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Official Beijing portal provides address and seasonal opening/last-entry details",
+        "Official source says advance reservation is required and Monday closure applies except public holidays",
+        "Palace Museum is the former imperial palace of Ming and Qing dynasties"
+      ],
+      "source": "Beijing Municipal Government English portal",
+      "sourceUrl": "https://english.beijing.gov.cn/specials/centralaxis/landmarksalongthecentralaxis/index.html",
+      "sourceUpdated": null,
+      "notes": "Operational details are dynamic and should be rechecked before travel. The current page's cited details were reviewed; this record is not a live availability check."
+    },
+    {
+      "attractionId": "beijing-great-wall",
+      "name": "Great Wall (Badaling section) ",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Beijing official attraction guide locates Badaling in Yanqing District, northwest of Beijing",
+        "Official ticketing guide provides seasonal visitor information and ticketing guidance for Badaling"
+      ],
+      "source": "Beijing Municipal Government English portal",
+      "sourceUrl": "https://english.beijing.gov.cn/travellinginbeijing/attractions/",
+      "sourceUpdated": null,
+      "notes": "This review is specifically about Badaling and must not be generalized to every Great Wall section. Dynamic access and ticket details require rechecking."
+    },
+    {
+      "attractionId": "beijing-temple-of-heaven",
+      "name": "Temple of Heaven",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Official source describes the complex as the imperial ritual site for worship of Heaven and prayers for harvest",
+        "Official central-axis guide provides seasonal park hours, address and published ticket prices"
+      ],
+      "source": "Beijing Municipal Government English portal",
+      "sourceUrl": "https://english.beijing.gov.cn/specials/centralaxis/landmarksalongthecentralaxis/index.html",
+      "sourceUpdated": null,
+      "notes": "Park and separately ticketed scenic areas have different access/ticket details. Dynamic rules should be rechecked."
+    },
+    {
+      "attractionId": "beijing-summer-palace",
+      "name": "Summer Palace",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Official Beijing guide describes the imperial garden and landscape integration",
+        "Municipal ticketing guide provides park hours and separately charged attraction access information"
+      ],
+      "source": "Beijing Municipal Government English portal",
+      "sourceUrl": "https://english.beijing.gov.cn/specials/ticketing/index.html",
+      "sourceUpdated": null,
+      "notes": "Seasonal hours, separate attractions and ticket prices are dynamic; recheck before travel."
+    },
+    {
+      "attractionId": "beijing-tiananmen-square",
+      "name": "Tian'anmen Square",
+      "status": "source-confirmed",
+      "claimsReviewed": [
+        "Official Beijing attraction guide places the square in central Beijing along East Chang'an Avenue",
+        "Official holiday guide lists square access hours and reservation channels"
+      ],
+      "source": "Beijing Municipal Government English portal",
+      "sourceUrl": "https://english.beijing.gov.cn/travellinginbeijing/attractions/",
+      "sourceUpdated": null,
+      "notes": "Reservation channels and security/access rules are dynamic; recheck before travel."
+    },
+    {
+      "attractionId": "beijing-jingshan-park",
+      "name": "Jingshan Park",
+      "status": "source-review-pending",
+      "claimsReviewed": [],
+      "source": null,
+      "sourceUrl": null,
+      "sourceUpdated": null,
+      "notes": "Official pages appear to provide inconsistent reservation guidance for foreign visitors; this batch does not resolve the discrepancy. Confirm directly before visiting."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "phase": 31,
+  "reviewedAt": "2026-11-22",
+  "scope": "Chengdu visitor information: official primary-source review for Chengdu Museum and Sanxingdui Museum; People’s Park and Kuanzhai Alleys remain unresolved pending primary sources.",
+  "records": [
+    {
+      "attractionId": "chengdu-chengdu-museum",
+      "name": "Chengdu Museum",
+      "status": "source-confirmed",
+      "sourceUrls": [
+        "https://www.cdmuseum.com/en/zhinan/",
+        "https://cdmuseum.com/bixuan/202507/4050.html",
+        "https://cdmuseum.com/gonggao/202408/3727.html",
+        "https://cdmuseum.com/gonggao/201901/87.html"
+      ],
+      "confirmed": {
+        "admission": "Free general admission; special exhibitions may be ticketed",
+        "booking": "Official reservation required; official 2025 notice says official WeChat account only, no authorised third-party platforms",
+        "passport": "Official notices state passport holders must exchange at the ticket consultation/service window; 2024 notice says overseas visitors can use email reservation via the foreign-language booking system. Current availability of email route should be reconfirmed.",
+        "hours": "Tue-Thu and Sun 09:00-17:00, last entry 16:30; Fri-Sat 09:00-20:30, last entry 20:00; Monday closed except public holidays",
+        "dailyLimit": 20000,
+        "address": "1 Xiahe Street, Qingyang District"
+      }
+    },
+    {
+      "attractionId": "chengdu-sanxingdui-museum",
+      "name": "Sanxingdui Museum",
+      "status": "source-confirmed",
+      "sourceUrls": [
+        "https://www.sxd.cn/Guide?type=3",
+        "https://www.sxd.cn/en",
+        "https://www.sxd.cn/"
+      ],
+      "confirmed": {
+        "adultPriceCNY": 72,
+        "realNameReservation": true,
+        "bookingRelease": "20:00 daily, up to 5 days in advance; holiday release notices may vary",
+        "foreignVisitors": "Inbound-tourist booking channel; original passport required at ticket centre for exchange",
+        "hours": "Exhibition halls 08:30-18:00, ticket checking stops 17:00; selected holiday/school-break extended hours 08:30-20:00, extended entry 17:00-18:00",
+        "closed": "Chinese New Year’s Eve, except temporary notices",
+        "unauthorizedThirdPartySales": true
+      }
+    },
+    {
+      "attractionId": "chengdu-people-s-park",
+      "name": "People’s Park",
+      "status": "secondary-source-reviewed",
+      "sourceUrls": [
+        "https://www.travelchinaguide.com/attraction/sichuan/chengdu/peoples-park.htm",
+        "https://www.trip.com/moments/poi-chengdu-people-s-park-10532409/"
+      ],
+      "notes": [
+        "Phase 32 later reviewed secondary references; admission, hours and booking remain unverified from primary sources."
+      ]
+    },
+    {
+      "attractionId": "chengdu-kuanzhai-alleys",
+      "name": "Kuanzhai Alleys",
+      "status": "secondary-source-reviewed",
+      "sourceUrls": [
+        "https://realchengdu.com/en/attractions/kuanzhai-alley"
+      ],
+      "notes": "Free public district and 24-hour access claims remain secondary-source only; individual venue hours and charges vary. Do not elevate to official confirmation."
+    }
+  ]
+}
