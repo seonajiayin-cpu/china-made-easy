@@ -1,0 +1,12 @@
+{
+  "project": "China Made Easy",
+  "phase": 123,
+  "phaseName": "Online Code Leak Containment & External Script Isolation",
+  "parentPhase": 122,
+  "parentArtifact": "china-made-easy-phase122-website-source-integrity-audit.zip",
+  "parentArtifactSha256": "405f4d0013e4f6dcee6c09482e60b1a70e4100a948e1c356de6edec26d91f62c",
+  "parentSourceIndexSha256": "a7622690408f0234b96d42afef4356e09c854b1ff9bebfe410473845cfb5a5ee",
+  "parentDistributionIndexSha256": "a7622690408f0234b96d42afef4356e09c854b1ff9bebfe410473845cfb5a5ee",
+  "generatedAt": "2026-11-23",
+  "scope": "Based strictly on Phase 122. Externalized four high-risk inline script blocks observed in online content extraction and user screenshots (planner quality/render, Phase 97 workflow, Phase 48 trip completion, Phase 50 offline travel kit) in the distribution build only. Source and local preview retain inline script blocks for legacy validator compatibility. Build copies external JS assets to dist. This artifact does not deploy or modify Cloudflare Pages."
+}
