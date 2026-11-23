@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://china-made-easy.example/schemas/attraction.schema.json",
+  "title": "China Made Easy Attraction Content Model",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "cityId",
+    "names",
+    "category",
+    "contentStatus",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "cityId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "names": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "visitDuration": {
+      "type": "object",
+      "properties": {
+        "minimum": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "maximum": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "unit": {
+          "type": "string"
+        },
+        "display": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "highlights": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visitorTips": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ticketing": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string"
+        },
+        "bookingRequired": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "officialBookingUrl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "lastVerifiedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "verificationStatus": {
+          "enum": [
+            "verified",
+            "needs-review",
+            "unverified"
+          ]
+        }
+      },
+      "required": [
+        "verificationStatus"
+      ]
+    },
+    "openingHours": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lastVerifiedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "verificationStatus": {
+          "enum": [
+            "verified",
+            "needs-review",
+            "unverified"
+          ]
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "license": {
+            "type": "string"
+          },
+          "credit": {
+            "type": "string"
+          },
+          "alt": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "url",
+          "license"
+        ]
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string"
+          },
+          "sourceType": {
+            "enum": [
+              "official",
+              "municipal",
+              "provider",
+              "editorial"
+            ]
+          },
+          "checkedAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          }
+        },
+        "required": [
+          "url",
+          "sourceType"
+        ]
+      }
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "contentStatus": {
+      "enum": [
+        "draft",
+        "needs-review",
+        "published"
+      ]
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

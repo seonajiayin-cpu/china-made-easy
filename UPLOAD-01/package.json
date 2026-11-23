@@ -1,0 +1,13 @@
+{
+  "name": "china-made-easy",
+  "private": true,
+  "version": "0.1.144",
+  "scripts": {
+    "test:modules": "node --test tests/*.test.mjs",
+    "build:preview": "node scripts/build-preview.mjs",
+    "audit:content": "node scripts/audit-content-integrity-phase-a6.cjs",
+    "validate:localization": "node scripts/validate-phase135-localization.cjs",
+    "validate:duplicates": "node scripts/validate-phase135-content-duplicates.cjs",
+    "validate:ia": "node scripts/validate-phase135-information-architecture.cjs"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "backendEnabled": false,
+  "provider": "supabase",
+  "projectUrl": "",
+  "publicAnonKey": "",
+  "authModes": ["guest", "email"],
+  "notes": "Example only. Do not add service-role secrets or private keys to frontend files. Backend is not connected in this prototype."
+}

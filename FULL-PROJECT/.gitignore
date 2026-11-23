@@ -1,0 +1,23 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node dependencies and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
+
+# Temporary test/build artifacts (keep the project dist/ deployment output)
+*.tmp
+*.temp
+coverage/
+playwright-report/
+test-results/

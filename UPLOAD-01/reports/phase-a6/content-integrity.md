@@ -1,0 +1,275 @@
+# Phase A-6 Content Integrity Audit
+
+Generated: 2026-11-23T13:49:08.699Z
+
+## Scope
+- Cities: 9
+- Attractions: 52
+- Experiences: 10
+
+## Severity totals
+- warning: 243
+
+## Findings by entity
+- attraction: 243
+
+## Findings by check
+- images: 52
+- address-verification: 46
+- booking-url: 41
+- ticketing-info: 25
+- ticketing-date: 22
+- opening-hours: 21
+- opening-hours-date: 21
+- source-url: 7
+- source-date: 7
+- address-source: 1
+
+## Detailed findings
+
+- **WARNING · attraction · shanghai-the-bund** · shanghai — address-verification: Address status: official-source-listed
+- **WARNING · attraction · shanghai-the-bund** · shanghai — opening-hours: No opening-hours content
+- **WARNING · attraction · shanghai-the-bund** · shanghai — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · shanghai-the-bund** · shanghai — ticketing-info: No ticketing information
+- **WARNING · attraction · shanghai-the-bund** · shanghai — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · shanghai-the-bund** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-the-bund** · shanghai — images: No images
+- **WARNING · attraction · shanghai-yu-garden** · shanghai — address-verification: Address status: official-source-listed
+- **WARNING · attraction · shanghai-yu-garden** · shanghai — opening-hours: No opening-hours content
+- **WARNING · attraction · shanghai-yu-garden** · shanghai — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · shanghai-yu-garden** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-yu-garden** · shanghai — images: No images
+- **WARNING · attraction · shanghai-shanghai-tower** · shanghai — address-verification: Address status: official-source-listed
+- **WARNING · attraction · shanghai-shanghai-tower** · shanghai — opening-hours: No opening-hours content
+- **WARNING · attraction · shanghai-shanghai-tower** · shanghai — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · shanghai-shanghai-tower** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-shanghai-tower** · shanghai — images: No images
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — address-source: Missing or non-HTTPS address source
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — address-verification: Address status: area-reference; street-level-verification-needed
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — opening-hours: No opening-hours content
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — ticketing-info: No ticketing information
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-former-french-concession** · shanghai — images: No images
+- **WARNING · attraction · shanghai-oriental-pearl** · shanghai — address-verification: Address status: official-source-listed
+- **WARNING · attraction · shanghai-oriental-pearl** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-oriental-pearl** · shanghai — images: No images
+- **WARNING · attraction · shanghai-museum-east** · shanghai — address-verification: Address status: official-source-listed
+- **WARNING · attraction · shanghai-museum-east** · shanghai — images: No images
+- **WARNING · attraction · shanghai-nanjing-road** · shanghai — address-verification: Address status: area-reference
+- **WARNING · attraction · shanghai-nanjing-road** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-nanjing-road** · shanghai — images: No images
+- **WARNING · attraction · shanghai-xintiandi** · shanghai — address-verification: Address status: area-reference
+- **WARNING · attraction · shanghai-xintiandi** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-xintiandi** · shanghai — images: No images
+- **WARNING · attraction · shanghai-tianzifang** · shanghai — address-verification: Address status: official-source-listed
+- **WARNING · attraction · shanghai-tianzifang** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-tianzifang** · shanghai — images: No images
+- **WARNING · attraction · shanghai-wukang-road** · shanghai — address-verification: Address status: area-reference
+- **WARNING · attraction · shanghai-wukang-road** · shanghai — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shanghai-wukang-road** · shanghai — images: No images
+- **WARNING · attraction · beijing-forbidden-city** · beijing — images: No images
+- **WARNING · attraction · beijing-great-wall** · beijing — images: No images
+- **WARNING · attraction · beijing-temple-of-heaven** · beijing — images: No images
+- **WARNING · attraction · beijing-summer-palace** · beijing — images: No images
+- **WARNING · attraction · beijing-798-art-district** · beijing — opening-hours: No opening-hours content
+- **WARNING · attraction · beijing-798-art-district** · beijing — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · beijing-798-art-district** · beijing — ticketing-info: No ticketing information
+- **WARNING · attraction · beijing-798-art-district** · beijing — images: No images
+- **WARNING · attraction · beijing-confucius-temple-imperial-college** · beijing — images: No images
+- **WARNING · attraction · guangzhou-canton-tower** · guangzhou — address-verification: Address status: official-source-listed
+- **WARNING · attraction · guangzhou-canton-tower** · guangzhou — opening-hours: No opening-hours content
+- **WARNING · attraction · guangzhou-canton-tower** · guangzhou — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · guangzhou-canton-tower** · guangzhou — ticketing-info: No ticketing information
+- **WARNING · attraction · guangzhou-canton-tower** · guangzhou — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · guangzhou-canton-tower** · guangzhou — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · guangzhou-canton-tower** · guangzhou — images: No images
+- **WARNING · attraction · guangzhou-chen-clan-ancestral-hall** · guangzhou — address-verification: Address status: official-source-listed
+- **WARNING · attraction · guangzhou-chen-clan-ancestral-hall** · guangzhou — opening-hours: No opening-hours content
+- **WARNING · attraction · guangzhou-chen-clan-ancestral-hall** · guangzhou — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · guangzhou-chen-clan-ancestral-hall** · guangzhou — ticketing-info: No ticketing information
+- **WARNING · attraction · guangzhou-chen-clan-ancestral-hall** · guangzhou — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · guangzhou-chen-clan-ancestral-hall** · guangzhou — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · guangzhou-chen-clan-ancestral-hall** · guangzhou — images: No images
+- **WARNING · attraction · guangzhou-shamian-island** · guangzhou — address-verification: Address status: area-reference
+- **WARNING · attraction · guangzhou-shamian-island** · guangzhou — opening-hours: No opening-hours content
+- **WARNING · attraction · guangzhou-shamian-island** · guangzhou — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · guangzhou-shamian-island** · guangzhou — ticketing-info: No ticketing information
+- **WARNING · attraction · guangzhou-shamian-island** · guangzhou — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · guangzhou-shamian-island** · guangzhou — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · guangzhou-shamian-island** · guangzhou — images: No images
+- **WARNING · attraction · guangzhou-yongqing-fang** · guangzhou — address-verification: Address status: area-reference
+- **WARNING · attraction · guangzhou-yongqing-fang** · guangzhou — opening-hours: No opening-hours content
+- **WARNING · attraction · guangzhou-yongqing-fang** · guangzhou — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · guangzhou-yongqing-fang** · guangzhou — ticketing-info: No ticketing information
+- **WARNING · attraction · guangzhou-yongqing-fang** · guangzhou — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · guangzhou-yongqing-fang** · guangzhou — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · guangzhou-yongqing-fang** · guangzhou — images: No images
+- **WARNING · attraction · shenzhen-shenzhen-bay-park** · shenzhen — address-verification: Address status: official-area-reference
+- **WARNING · attraction · shenzhen-shenzhen-bay-park** · shenzhen — ticketing-info: No ticketing information
+- **WARNING · attraction · shenzhen-shenzhen-bay-park** · shenzhen — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · shenzhen-shenzhen-bay-park** · shenzhen — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shenzhen-shenzhen-bay-park** · shenzhen — images: No images
+- **WARNING · attraction · shenzhen-lianhuashan-park** · shenzhen — address-verification: Address status: official-address-listed
+- **WARNING · attraction · shenzhen-lianhuashan-park** · shenzhen — ticketing-info: No ticketing information
+- **WARNING · attraction · shenzhen-lianhuashan-park** · shenzhen — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · shenzhen-lianhuashan-park** · shenzhen — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shenzhen-lianhuashan-park** · shenzhen — images: No images
+- **WARNING · attraction · shenzhen-huaqiangbei** · shenzhen — address-verification: Address status: official-area-reference
+- **WARNING · attraction · shenzhen-huaqiangbei** · shenzhen — opening-hours: No opening-hours content
+- **WARNING · attraction · shenzhen-huaqiangbei** · shenzhen — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · shenzhen-huaqiangbei** · shenzhen — ticketing-info: No ticketing information
+- **WARNING · attraction · shenzhen-huaqiangbei** · shenzhen — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · shenzhen-huaqiangbei** · shenzhen — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shenzhen-huaqiangbei** · shenzhen — images: No images
+- **WARNING · attraction · shenzhen-oct-loft** · shenzhen — address-verification: Address status: official-area-reference
+- **WARNING · attraction · shenzhen-oct-loft** · shenzhen — opening-hours: No opening-hours content
+- **WARNING · attraction · shenzhen-oct-loft** · shenzhen — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · shenzhen-oct-loft** · shenzhen — ticketing-info: No ticketing information
+- **WARNING · attraction · shenzhen-oct-loft** · shenzhen — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · shenzhen-oct-loft** · shenzhen — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · shenzhen-oct-loft** · shenzhen — images: No images
+- **WARNING · attraction · chengdu-chengdu-panda-base** · chengdu — address-verification: Address status: source-listed
+- **WARNING · attraction · chengdu-chengdu-panda-base** · chengdu — source-url: Source URL not HTTPS: missing
+- **WARNING · attraction · chengdu-chengdu-panda-base** · chengdu — source-date: Missing/invalid source checkedAt: unnamed
+- **WARNING · attraction · chengdu-chengdu-panda-base** · chengdu — source-url: Source URL not HTTPS: missing
+- **WARNING · attraction · chengdu-chengdu-panda-base** · chengdu — source-date: Missing/invalid source checkedAt: unnamed
+- **WARNING · attraction · chengdu-chengdu-panda-base** · chengdu — images: No images
+- **WARNING · attraction · chengdu-people-s-park** · chengdu — address-verification: Address status: source-listed
+- **WARNING · attraction · chengdu-people-s-park** · chengdu — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · chengdu-people-s-park** · chengdu — images: No images
+- **WARNING · attraction · chengdu-wuhou-shrine-jinli** · chengdu — address-verification: Address status: source-listed
+- **WARNING · attraction · chengdu-wuhou-shrine-jinli** · chengdu — source-url: Source URL not HTTPS: missing
+- **WARNING · attraction · chengdu-wuhou-shrine-jinli** · chengdu — source-date: Missing/invalid source checkedAt: unnamed
+- **WARNING · attraction · chengdu-wuhou-shrine-jinli** · chengdu — source-url: Source URL not HTTPS: missing
+- **WARNING · attraction · chengdu-wuhou-shrine-jinli** · chengdu — source-date: Missing/invalid source checkedAt: unnamed
+- **WARNING · attraction · chengdu-wuhou-shrine-jinli** · chengdu — images: No images
+- **WARNING · attraction · chengdu-kuanzhai-alleys** · chengdu — address-verification: Address status: source-listed
+- **WARNING · attraction · chengdu-kuanzhai-alleys** · chengdu — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · chengdu-kuanzhai-alleys** · chengdu — images: No images
+- **WARNING · attraction · chongqing-hongya-cave** · chongqing — address-verification: Address status: official address listed; exact visitor entrance needs verification
+- **WARNING · attraction · chongqing-hongya-cave** · chongqing — opening-hours: No opening-hours content
+- **WARNING · attraction · chongqing-hongya-cave** · chongqing — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · chongqing-hongya-cave** · chongqing — ticketing-info: No ticketing information
+- **WARNING · attraction · chongqing-hongya-cave** · chongqing — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · chongqing-hongya-cave** · chongqing — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · chongqing-hongya-cave** · chongqing — images: No images
+- **WARNING · attraction · chongqing-jiefangbei** · chongqing — address-verification: Address status: official address listed; exact visitor entrance needs verification
+- **WARNING · attraction · chongqing-jiefangbei** · chongqing — ticketing-info: No ticketing information
+- **WARNING · attraction · chongqing-jiefangbei** · chongqing — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · chongqing-jiefangbei** · chongqing — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · chongqing-jiefangbei** · chongqing — images: No images
+- **WARNING · attraction · chongqing-liziba** · chongqing — address-verification: Address status: official address listed; exact visitor entrance needs verification
+- **WARNING · attraction · chongqing-liziba** · chongqing — opening-hours: No opening-hours content
+- **WARNING · attraction · chongqing-liziba** · chongqing — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · chongqing-liziba** · chongqing — ticketing-info: No ticketing information
+- **WARNING · attraction · chongqing-liziba** · chongqing — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · chongqing-liziba** · chongqing — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · chongqing-liziba** · chongqing — images: No images
+- **WARNING · attraction · chongqing-yangtze-cableway** · chongqing — address-verification: Address status: official address listed; exact visitor entrance needs verification
+- **WARNING · attraction · chongqing-yangtze-cableway** · chongqing — ticketing-info: No ticketing information
+- **WARNING · attraction · chongqing-yangtze-cableway** · chongqing — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · chongqing-yangtze-cableway** · chongqing — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · chongqing-yangtze-cableway** · chongqing — images: No images
+- **WARNING · attraction · harbin-central-street** · harbin — address-verification: Address status: area reference; street-level address needs verification
+- **WARNING · attraction · harbin-central-street** · harbin — opening-hours: No opening-hours content
+- **WARNING · attraction · harbin-central-street** · harbin — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · harbin-central-street** · harbin — ticketing-info: No ticketing information
+- **WARNING · attraction · harbin-central-street** · harbin — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · harbin-central-street** · harbin — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · harbin-central-street** · harbin — images: No images
+- **WARNING · attraction · harbin-saint-sophia-cathedral** · harbin — address-verification: Address status: address-listed; verification-needed
+- **WARNING · attraction · harbin-saint-sophia-cathedral** · harbin — opening-hours: No opening-hours content
+- **WARNING · attraction · harbin-saint-sophia-cathedral** · harbin — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · harbin-saint-sophia-cathedral** · harbin — ticketing-info: No ticketing information
+- **WARNING · attraction · harbin-saint-sophia-cathedral** · harbin — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · harbin-saint-sophia-cathedral** · harbin — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · harbin-saint-sophia-cathedral** · harbin — images: No images
+- **WARNING · attraction · harbin-ice-and-snow-world** · harbin — address-verification: Address status: area address listed; exact visitor entrance needs verification
+- **WARNING · attraction · harbin-ice-and-snow-world** · harbin — opening-hours: No opening-hours content
+- **WARNING · attraction · harbin-ice-and-snow-world** · harbin — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · harbin-ice-and-snow-world** · harbin — ticketing-info: No ticketing information
+- **WARNING · attraction · harbin-ice-and-snow-world** · harbin — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · harbin-ice-and-snow-world** · harbin — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · harbin-ice-and-snow-world** · harbin — images: No images
+- **WARNING · attraction · harbin-sun-island** · harbin — address-verification: Address status: official tourism area address listed; exact visitor entrance needs verification
+- **WARNING · attraction · harbin-sun-island** · harbin — opening-hours: No opening-hours content
+- **WARNING · attraction · harbin-sun-island** · harbin — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · harbin-sun-island** · harbin — ticketing-info: No ticketing information
+- **WARNING · attraction · harbin-sun-island** · harbin — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · harbin-sun-island** · harbin — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · harbin-sun-island** · harbin — images: No images
+- **WARNING · attraction · xinjiang-kanas** · xinjiang — address-verification: Address status: scenic-area reference; exact entrance needs verification
+- **WARNING · attraction · xinjiang-kanas** · xinjiang — opening-hours: No opening-hours content
+- **WARNING · attraction · xinjiang-kanas** · xinjiang — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · xinjiang-kanas** · xinjiang — ticketing-info: No ticketing information
+- **WARNING · attraction · xinjiang-kanas** · xinjiang — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · xinjiang-kanas** · xinjiang — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xinjiang-kanas** · xinjiang — images: No images
+- **WARNING · attraction · xinjiang-hemu** · xinjiang — address-verification: Address status: village-area reference; exact destination needs verification
+- **WARNING · attraction · xinjiang-hemu** · xinjiang — opening-hours: No opening-hours content
+- **WARNING · attraction · xinjiang-hemu** · xinjiang — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · xinjiang-hemu** · xinjiang — ticketing-info: No ticketing information
+- **WARNING · attraction · xinjiang-hemu** · xinjiang — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · xinjiang-hemu** · xinjiang — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xinjiang-hemu** · xinjiang — images: No images
+- **WARNING · attraction · xinjiang-sayram-lake** · xinjiang — address-verification: Address status: lake-area reference; exact destination needs verification
+- **WARNING · attraction · xinjiang-sayram-lake** · xinjiang — opening-hours: No opening-hours content
+- **WARNING · attraction · xinjiang-sayram-lake** · xinjiang — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · xinjiang-sayram-lake** · xinjiang — ticketing-info: No ticketing information
+- **WARNING · attraction · xinjiang-sayram-lake** · xinjiang — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · xinjiang-sayram-lake** · xinjiang — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xinjiang-sayram-lake** · xinjiang — images: No images
+- **WARNING · attraction · xinjiang-kashgar-old-city** · xinjiang — address-verification: Address status: urban-area reference; exact destination needs verification
+- **WARNING · attraction · xinjiang-kashgar-old-city** · xinjiang — opening-hours: No opening-hours content
+- **WARNING · attraction · xinjiang-kashgar-old-city** · xinjiang — opening-hours-date: Missing/invalid opening-hours verification date
+- **WARNING · attraction · xinjiang-kashgar-old-city** · xinjiang — ticketing-info: No ticketing information
+- **WARNING · attraction · xinjiang-kashgar-old-city** · xinjiang — ticketing-date: Missing/invalid ticketing verification date
+- **WARNING · attraction · xinjiang-kashgar-old-city** · xinjiang — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xinjiang-kashgar-old-city** · xinjiang — images: No images
+- **WARNING · attraction · chengdu-chengdu-museum** · chengdu — address-verification: Address status: source-listed
+- **WARNING · attraction · chengdu-chengdu-museum** · chengdu — images: No images
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — address-verification: Address status: source-listed
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — source-url: Source URL not HTTPS: missing
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — source-date: Missing/invalid source checkedAt: unnamed
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — source-url: Source URL not HTTPS: missing
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — source-date: Missing/invalid source checkedAt: unnamed
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — source-url: Source URL not HTTPS: missing
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — source-date: Missing/invalid source checkedAt: unnamed
+- **WARNING · attraction · chengdu-sanxingdui-museum** · chengdu — images: No images
+- **WARNING · attraction · xian-terracotta-army** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-terracotta-army** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-terracotta-army** · xian — images: No images
+- **WARNING · attraction · xian-city-wall** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-city-wall** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-city-wall** · xian — images: No images
+- **WARNING · attraction · xian-muslim-quarter** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-muslim-quarter** · xian — ticketing-info: No ticketing information
+- **WARNING · attraction · xian-muslim-quarter** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-muslim-quarter** · xian — images: No images
+- **WARNING · attraction · xian-big-wild-goose-pagoda** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-big-wild-goose-pagoda** · xian — ticketing-info: No ticketing information
+- **WARNING · attraction · xian-big-wild-goose-pagoda** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-big-wild-goose-pagoda** · xian — images: No images
+- **WARNING · attraction · xian-shaanxi-history-museum** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-shaanxi-history-museum** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-shaanxi-history-museum** · xian — images: No images
+- **WARNING · attraction · xian-yongxingfang** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-yongxingfang** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-yongxingfang** · xian — images: No images
+- **WARNING · attraction · xian-sajinqiao-food-street** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-sajinqiao-food-street** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-sajinqiao-food-street** · xian — images: No images
+- **WARNING · attraction · xian-datang-everbright-city** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-datang-everbright-city** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-datang-everbright-city** · xian — images: No images
+- **WARNING · attraction · xian-qinqiang-opera-experience** · xian — address-verification: Address status: needs-review
+- **WARNING · attraction · xian-qinqiang-opera-experience** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-qinqiang-opera-experience** · xian — images: No images
+- **WARNING · attraction · xian-shuncheng-alley** · xian — address-verification: Address status: source-listed
+- **WARNING · attraction · xian-shuncheng-alley** · xian — booking-url: Missing or non-HTTPS official booking URL
+- **WARNING · attraction · xian-shuncheng-alley** · xian — images: No images
+
+## Limitations
+This audit checks schema-level presence, consistency, URLs/date formats, locale coverage, and references. It does not establish factual accuracy, link validity, translation quality, image rights, or current operating conditions.

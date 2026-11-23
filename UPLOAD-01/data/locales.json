@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "supportedLocales": [
+    "en",
+    "zh-Hans",
+    "zh-Hant",
+    "fr",
+    "es",
+    "ja",
+    "ko"
+  ],
+  "defaultLocale": "en",
+  "translationPolicy": {
+    "fallbackLocale": "en",
+    "contentFields": [
+      "city.intro",
+      "city.themes",
+      "attraction.summary",
+      "attraction.highlights",
+      "attraction.visitorTips"
+    ],
+    "uiFields": "Use translation keys; do not duplicate UI strings in content records."
+  },
+  "cityNames": {
+    "en": {
+      "Shanghai": "Shanghai",
+      "Beijing": "Beijing",
+      "Guangzhou": "Guangzhou",
+      "Shenzhen": "Shenzhen",
+      "Chengdu": "Chengdu",
+      "Chongqing": "Chongqing",
+      "Harbin": "Harbin",
+      "Xinjiang": "Xinjiang"
+    },
+    "zh-Hans": {
+      "Shanghai": "上海",
+      "Beijing": "北京",
+      "Guangzhou": "广州",
+      "Shenzhen": "深圳",
+      "Chengdu": "成都",
+      "Chongqing": "重庆",
+      "Harbin": "哈尔滨",
+      "Xinjiang": "新疆"
+    },
+    "zh-Hant": {
+      "Shanghai": "上海",
+      "Beijing": "北京",
+      "Guangzhou": "廣州",
+      "Shenzhen": "深圳",
+      "Chengdu": "成都",
+      "Chongqing": "重慶",
+      "Harbin": "哈爾濱",
+      "Xinjiang": "新疆"
+    },
+    "fr": {
+      "Shanghai": "Shanghai",
+      "Beijing": "Pékin",
+      "Guangzhou": "Canton",
+      "Shenzhen": "Shenzhen",
+      "Chengdu": "Chengdu",
+      "Chongqing": "Chongqing",
+      "Harbin": "Harbin",
+      "Xinjiang": "Xinjiang"
+    },
+    "es": {
+      "Shanghai": "Shanghái",
+      "Beijing": "Pekín",
+      "Guangzhou": "Cantón",
+      "Shenzhen": "Shenzhen",
+      "Chengdu": "Chengdu",
+      "Chongqing": "Chongqing",
+      "Harbin": "Harbin",
+      "Xinjiang": "Xinjiang"
+    },
+    "ja": {
+      "Shanghai": "上海",
+      "Beijing": "北京",
+      "Guangzhou": "広州",
+      "Shenzhen": "深圳",
+      "Chengdu": "成都",
+      "Chongqing": "重慶",
+      "Harbin": "ハルビン",
+      "Xinjiang": "新疆"
+    },
+    "ko": {
+      "Shanghai": "상하이",
+      "Beijing": "베이징",
+      "Guangzhou": "광저우",
+      "Shenzhen": "선전",
+      "Chengdu": "청두",
+      "Chongqing": "충칭",
+      "Harbin": "하얼빈",
+      "Xinjiang": "신장"
+    }
+  },
+  "notes": [
+    "This file defines the initial locale architecture and labels. It does not claim that all site content is translated.",
+    "English remains the fallback for content not yet translated.",
+    "Translations should be reviewed by a fluent human before publication.",
+    "Spanish (es) is included in the locale framework. UI translations are partial and content remains English until reviewed translations are added.",
+    "Japanese (ja) and Korean (ko) are now included in the locale framework with partial UI translations; untranslated content falls back to English."
+  ]
+}
